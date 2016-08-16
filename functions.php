@@ -38,6 +38,7 @@ function create()			 	//scope of variable is within the function only
                     aggregate float,
                     attendance float,
                     members text,
+										hobbies text,
                     academics1 text,
                     curricular1 text,
                     co_curricular1 text,
@@ -96,6 +97,7 @@ function insert()
                     $four_2 = $_POST['four_2'];
                     $attendance = $_POST['attendance'];
                     $members = $_POST['members'];
+										$hobbies = $_POST['hobbies'];
                     $academics1 = $_POST['academics1'];
                     $academics2 = $_POST['academics2'];
                     $academics3 = $_POST['academics3'];
@@ -146,6 +148,7 @@ function insert()
                     four_2,
                     attendance,
                     members,
+										hobbies,
                     academics1,
                     curricular1,
                     co_curricular1,
@@ -195,6 +198,7 @@ function insert()
                     '$four_2',
                     '$attendance',
                     '$members',
+										'$hobbies',
                     '$academics1',
                     '$curricular1',
                     '$co_curricular1',
@@ -326,6 +330,7 @@ function details()
 												echo "<tr><th>Cummulative percentage</td><td>".$row['aggregate']."</td></tr>";
                         echo "<tr><th>Attendance %</td><td>".$row['attendance']."</td></tr>";
                         echo "<tr><th>Member of </td><td>".$row['members']."</td></tr>";
+                        echo "<tr><th>Hobbies </td><td>".$row['hobbies']."</td></tr>";
                         echo "</table>";
 
                         //Table academiics starts ....
@@ -391,7 +396,7 @@ function details()
                 }
                 mysqli_close($con);
 }
-function import()
+function import()                                         // Function made for excel import only...
 {
                 $conn = mysql_connect("localhost","root","");
                 mysql_select_db("info",$conn);
@@ -658,6 +663,7 @@ function details_admin()
 												echo "<tr><th> Cummulative Percentage</td><td><input class='loginName' type='text' class='form__input' value='".$row['aggregate'] ."' name='aggregate' ></td></tr>";
 												echo "<tr><th> Attendance</td><td><input class='loginName' type='text' class='form__input' value='"       .$row['attendance'] ."' name='attendace' ></td></tr>";
 												echo "<tr><th>Member of </td><td><input class='loginName' type='text' class='form__input' value='"       .$row['members']."' name='members' ></td></tr>";
+												echo "<tr><th>Hobbies </td><td><input class='loginName' type='text' class='form__input' value='"       .$row['hobbies']."' name='hobbies' ></td></tr>";
 												echo "</table>";
 
 
@@ -785,9 +791,10 @@ function details_update()
                     $two_2 = $_POST['two_2'];
                     $three_2 = $_POST['three_2'];
                     $four_2 = $_POST['four_2'];
-					$agg=$_POST['aggregate'];
+										$agg=$_POST['aggregate'];
                     $attendance = $_POST['attendace'];
                     $members = $_POST['members'];
+										$hobbies = $_POST['hobbies'];
                     $academics1 = $_POST['academics1'];
                     $academics2 = $_POST['academics2'];
                     $academics3 = $_POST['academics3'];
@@ -829,7 +836,7 @@ function details_update()
 						$agg=$_POST['aggregate'];
 
 
-					$sql = "UPDATE profiles SET name='$name', dob='$dob', sex='$sex', father_name='$father_name', address='$address', email='$email',  mobile='$mobile', aadhaar_id='$aadhaar_id', father_mobile='$father_mobile',  uname='$uname', pwd='$pwd', nationality='$nationality', caste='$caste', th10='$th10', sc2='$sc2', diploma='$diploma',  attendance='$attendance', one_1='$one_1', two_1='$two_1', three_1='$three_1', four_1='$four_1', one_2='$one_2', two_2='$two_2', three_2='$three_2', four_2='$four_2', aggregate='$agg', members='$members', academics1='$academics1', curricular1='$curricular1', co_curricular1='$co_curricular1', extra_curricular1='$extra_curricular1', others1='$others1', academics2='$academics2', curricular2='$curricular2', co_curricular2='$co_curricular2', extra_curricular2='$extra_curricular2', others2='$others2', academics3='$academics3', curricular3='$curricular3', co_curricular3='$co_curricular3', extra_curricular3='$extra_curricular3', others3='$others3', academics4='$academics4', curricular4='$curricular4', co_curricular4='$co_curricular4', extra_curricular4='$extra_curricular4', others4='$others4'
+					$sql = "UPDATE profiles SET name='$name', dob='$dob', sex='$sex', father_name='$father_name', address='$address', email='$email',  mobile='$mobile', aadhaar_id='$aadhaar_id', father_mobile='$father_mobile',  uname='$uname', pwd='$pwd', nationality='$nationality', caste='$caste', th10='$th10', sc2='$sc2', diploma='$diploma',  attendance='$attendance', one_1='$one_1', two_1='$two_1', three_1='$three_1', four_1='$four_1', one_2='$one_2', two_2='$two_2', three_2='$three_2', four_2='$four_2', aggregate='$agg', members='$members', hobbies='$hobbies', academics1='$academics1', curricular1='$curricular1', co_curricular1='$co_curricular1', extra_curricular1='$extra_curricular1', others1='$others1', academics2='$academics2', curricular2='$curricular2', co_curricular2='$co_curricular2', extra_curricular2='$extra_curricular2', others2='$others2', academics3='$academics3', curricular3='$curricular3', co_curricular3='$co_curricular3', extra_curricular3='$extra_curricular3', others3='$others3', academics4='$academics4', curricular4='$curricular4', co_curricular4='$co_curricular4', extra_curricular4='$extra_curricular4', others4='$others4'
 					WHERE roll_no='$roll_no' ";
 					$ress = mysqli_query($con,$sql) or die(mysqli_error($con));
                    echo "<center><br><br><br><br><br><br> Data Registered </center>";

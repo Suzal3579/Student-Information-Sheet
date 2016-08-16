@@ -16,7 +16,7 @@
     $con = mysql_connect("localhost","root","");
     $create = mysql_query("CREATE DATABASE image");
     mysql_select_db("image",$con) or die (mysql_error());
-    $table = "CREATE TABLE image(regdno varchar(20) PRIMARY KEY,image text);";                    
+    $table = "CREATE TABLE image(regdno varchar(20) PRIMARY KEY,image text);";
     $create_table = mysql_query($table);
 
 ?>
@@ -124,9 +124,9 @@
                         <label class="fontawesome-user" for="login__username"><span class="hidden">Caste </span></label></div>
                     <input id="login__caste" type="text" class="form__input" placeholder="" name="caste">
                 </div>
-                <!-- 
-                            
-                                                         GUESS NO LONGER NEEDED 
+                <!--
+
+                                                         GUESS NO LONGER NEEDED
 
                 <div class="form__field">
                     <div class="new">
@@ -134,7 +134,7 @@
                     </div>
                     <input id="imagePath" type="file" name="image">
                 </div>
-                
+
                 -->
 
                 <br><br>
@@ -189,7 +189,13 @@
                     <div class="new">
                         <label class="fontawesome-user" for="login__username"><span class="hidden">Members Of </span></label></div>
                     <input id="login__members" type="text" class="form__input" placeholder="" name="members">
-                </div><br><br>
+                </div>
+                <div class="form__field">
+                    <div class="new">
+                        <label class="fontawesome-user" for="login__username"><span class="hidden">Hobbies </span></label></div>
+                    <input id="login__members" type="text" class="form__input" placeholder="" name="hobbies">
+                </div>
+                <br><br>
                 <p id="achievements"><u>Achievements</u></p>
                 <table class="tg">
                     <tr>
@@ -230,9 +236,9 @@
                 </table>
 
                 <?php
-						include "functions.php";
-						insert();
-            ?>
+      						      include "functions.php";
+						            insert();
+                ?>
 
                     <center>
                         <article id="left_art">
