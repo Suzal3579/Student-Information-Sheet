@@ -24,8 +24,8 @@
 	                	<input id="submit" type="submit" name="submit" value="Insert">
 	            	</form>
 	            	<?php
-					include "functions.php";
-					import();
+						include "functions.php";
+						import();
 	            	?>
 	                <form action="details_admin.php" method="POST" class="form form--login">
 	                    <div class="form__fieldRoll">
