@@ -20,10 +20,13 @@
     </header>
 
     <div id="bodyMain">
-         <?php
-            include "functions.php";
-		  	admin_update();
-          ?>
+	     <?php
+	        include "functions.php";
+		  	emailSend();
+	      ?>
+		  <h3 class = "send"><center>
+			  Email Sent Successfully.
+		  </center></h3>
      </div>
 </body>
 </html>

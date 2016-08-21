@@ -957,4 +957,22 @@ function upload()
     }
 }
 
+// Function for email sending ...
+
+function emailSend()
+{
+	$con = mysql_connect("localhost","root","");
+	mysql_select_db("info") or die(mysql_error());
+	if(isset($_POST["submit"]))
+	{
+		$subject = $_POST['subject'];
+		$message = $_POST['message'];
+		$emailRegd = $_POST['emailRegd'];
+		$from = "FROM: bvcec@org for all";    // Additional details here if needed ...
+		// $selectQuery = "Select email FROM info WHERE roll_no = $emailRegd";
+		// mail($selectQuery,$subject,$message,$from) or die("There 1".mysql_error());
+		mail($emailRegd,$subject,$message,$from) or die("Here 2".mysql_error());
+	}
+	mysql_close();
+	}
 ?>

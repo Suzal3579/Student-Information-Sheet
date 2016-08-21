@@ -82,7 +82,7 @@
 	                            <input type="submit" value="Search">
 	                        </div>
 						</form>
-						<form class = "form form--login" action="email.php" method="post">
+						<form class = "form form--login"  action="email.php" method="post">
 							<div id ="emailDiv">
 								<p id = "emailForm_p"><u>Send E-Mail</u></p>
 								<div class="dibba">
@@ -91,6 +91,24 @@
 		                            <input id="login__rollno" type="text" class="form__input" placeholder="Email / Regd.No" name="emailRegd">
 		                        </div>
 							</div>
+							<div id ="emailDiv">
+								<div class="dibba">
+		                            <div class="new">
+		                                <label class="fontawesome-user" for="login__username"><span class="hidden">Enter Subject</span></label></div>
+		                            <input id="login__rollno" type="text" class="form__input" placeholder="" name="subject">
+		                        </div>
+							</div>
+							<div id ="emailDiv">
+								<div class="dibba">
+		                            <div class="new">
+		                                <label class="fontawesome-user" for="login__username"><span class="hidden">Enter message</span></label></div>
+		                            <input id="login__rollno" type="text" class="form__input" placeholder="" name="message">
+		                        </div>
+							</div>
+							<div class="searchbottom animated bounce ">
+	                            <input type="submit" value="Send" name="submit">
+	                        </div>
+
 						</form>
 	        	</div>
 	    	</div>
