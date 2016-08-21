@@ -236,8 +236,8 @@
                 </table>
 
                 <?php
-      						      include "functions.php";
-						            insert();
+			      	include "functions.php";
+	            	insert();
                 ?>
 
                 <center>
