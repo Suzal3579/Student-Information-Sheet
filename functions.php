@@ -652,7 +652,7 @@ function details_admin()
 			//Beginning new table here...
 
 			echo "</table>";
-			echo "<p id='achievements'><u>BTech Marks %</u></p>";
+			echo "<p id='achievements'><u>B.Tech Marks(%)</u></p>";
 			echo "<table class = 'tg'>";
           	echo "<tr>";
             echo "<td class='tg1'>Semester</td>";
@@ -861,6 +861,8 @@ function details_update()
     mysqli_close($con);
 }
 
+// Full editable table displayed ...
+
 function stu_table_criteria()
 {
     $con =mysqli_connect("localhost","root","");
@@ -868,14 +870,14 @@ function stu_table_criteria()
     $flag=0;
 	$field_1=$_POST['field_1'];
     $result = mysqli_query($con,"SELECT * FROM profiles");
-    echo "<table border='0' cellspacing='30px'>
+    echo "<table id = 'stutable'>
 	<tr>
 	<th> Roll no</td>
 	<th> Name of student (As per SSC)</td>
 	<th> DOB</td>
-	<th> Father's namee</td>
+	<th> Father's name</td>
 	<th> Address</td>
-	<th>Mobile No.</td>
+	<th> Mobile No.</td>
 	<th> Parent's Mobile No.</td>
 	</tr>
     <br>";

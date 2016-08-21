@@ -70,7 +70,7 @@
 	                    <div class="searchbottom animated bounce ">
 	                        <input type="submit" value="submit">
 	                    </div>
-						</form>
+					</form><br><br>
 	                    <form action="stu_table_criteria.php" method="POST" class="form form--login">
 	                        <p id="search"><u>Advanced search</u></p>
 	                        <div class="dibba">
