@@ -2,24 +2,24 @@
 
 <html lang="en">
 
-<head>
+	<head>
 
-    <meta charset="UTF-8">
-    <title>Student Details Information.</title>
-    <link rel="stylesheet" href="styleReg.css">
-    <link rel="stylesheet" href="animate.css">
-    <link rel="shortcut icon" href="bvc.png" type="image/x-icon" />
+	    <meta charset="UTF-8">
+	    <title>Student Details Information.</title>
+	    <link rel="stylesheet" href="styleReg.css">
+	    <link rel="stylesheet" href="animate.css">
+	    <link rel="shortcut icon" href="bvc.png" type="image/x-icon" />
 
 
-</head>
-<?php
-    $con = mysql_connect("localhost","root","");
-    $create = mysql_query("CREATE DATABASE image");
-    mysql_select_db("image",$con) or die (mysql_error());
-    $table = "CREATE TABLE image(regdno varchar(20) PRIMARY KEY,image text);";
-    $create_table = mysql_query($table);
+	</head>
+	<?php
+	    $con = mysql_connect("localhost","root","");
+	    $create = mysql_query("CREATE DATABASE image");
+	    mysql_select_db("image",$con) or die (mysql_error());
+	    $table = "CREATE TABLE image(regdno varchar(20) PRIMARY KEY,image text);";
+	    $create_table = mysql_query($table);
 
-?>
+	?>
 
     <body>
 
@@ -126,7 +126,7 @@
                 </div>
                 <!--
 
-                                                         GUESS NO LONGER NEEDED
+                                                          NO LONGER NEEDED
 
                 <div class="form__field">
                     <div class="new">
@@ -240,10 +240,11 @@
 						            insert();
                 ?>
 
-                    <center>
-                        <article id="left_art">
-                            Press the button below for registering !
-                        </article><input type="submit" value="Submit" name="submit" id="form_submit" target="_blank"></center>
+                <center>
+                    <article id="left_art">
+                        Press the button below for registering !
+                    </article><input type="submit" value="Submit" name="submit" id="form_submit" target="_blank">
+				</center>
             </form>
         </div>
     </body>

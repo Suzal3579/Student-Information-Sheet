@@ -25,10 +25,10 @@
         <br>
 
         <?php
-					include "functions.php";
-					stu_table_criteria();
+			include "functions.php";
+			stu_table_criteria();
 
-            ?>
+        ?>
 
     </div>
 </body>

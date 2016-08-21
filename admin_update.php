@@ -12,7 +12,6 @@
     <link rel="shortcut icon" href="bvc.png" type="image/x-icon" />
 
 </head>
-
 <body>
 
     <header id="topHead" class="animated fadeInDown">
@@ -21,16 +20,10 @@
     </header>
 
     <div id="bodyMain">
-
-
-        <?php
+         <?php
             include "functions.php";
-			admin_update();
-            ?>
-
-
-
-    </div>
+		  admin_update();
+          ?>
+     </div>
 </body>
-
 </html>
