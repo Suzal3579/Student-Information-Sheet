@@ -4,20 +4,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+	<head>
 
-    <meta charset="UTF-8">
-    <title>Login</title>
-    <link rel="shortcut icon" href="bvc.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="animate.css">
+	    <meta charset="UTF-8">
+	    <title>Login</title>
+	    <link rel="shortcut icon" href="bvc.png" type="image/x-icon" />
+	    <link rel="stylesheet" href="style.css">
+	    <link rel="stylesheet" href="animate.css">
 
-</head>
+	</head>
 
-<?php
-	include "functions.php";
-	create();
-?>
+	<?php
+		include "functions.php";
+		create();
+	?>
 
     <body>
 

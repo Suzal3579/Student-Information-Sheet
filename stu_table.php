@@ -25,10 +25,10 @@
         <br>
 
         <?php
-				include "functions.php";
-				stu_table();
+			include "functions.php";
+			stu_table();
 
-            ?>
+        ?>
 
     </div>
 </body>
