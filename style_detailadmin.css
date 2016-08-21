@@ -247,7 +247,7 @@ td {
     width: 170px;
     height: 50px;
     border-radius: 30px;
-    margin: 150% 25% 0 77%;
+    margin: 2080px 0 0 570px;
     color: white;
     background: #ea4c68;
 }
@@ -322,5 +322,5 @@ td {
 }
 
 .image_upload {
-    margin: -2100px 45% 0 55%;
+    margin: -2275px 45% 0 55%;
 }

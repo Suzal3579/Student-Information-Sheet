@@ -232,6 +232,9 @@ function insert()
     else" failed";
     mysqli_close($con);
 }
+
+//  View student details...
+
 function details()
 {
 	$con =mysqli_connect("localhost","root","");
@@ -295,8 +298,6 @@ function details()
             echo "<tr><th> Mobile No.</td><td>" . $row['mobile'] . "</td></tr>";
             echo "<tr><th> Aadhaar Id</td><td>" . $row['aadhaar_id'] . "</td></tr>";
             echo "<tr><th> Parent's Mobile No.</td><td>" . $row['father_mobile'] . "</td></tr>";
-            echo "<tr><th> Username</td><td>" . $row['uname'] . "</td></tr>";
-            echo "<tr><th> Password</td><td>" . $row['pwd'] . "</td></tr>";
             echo "<tr><th> Nationality</td><td>" . $row['nationality'] . "</td></tr>";
             echo "<tr><th> Caste</td><td>" . $row['caste'] . "</td></tr>";
             echo "<tr><th> 10th</td><td>" . $row['th10'] . "</td></tr>";
@@ -403,6 +404,9 @@ function details()
     }
     mysqli_close($con);
 }
+
+// Importing Data From Excel Sheet...
+
 function import()                                         // Function made for excel import only...
 {
     $conn = mysql_connect("localhost","root","");
@@ -574,21 +578,24 @@ function import()                                         // Function made for e
 
     }
 }
+
+// Base overview of a table to admin ... some info present ...
+
 function stu_table()
 {
         $con =mysqli_connect("localhost","root","");
         mysqli_select_db($con,"info");
         $flag=0;
         $result = mysqli_query($con,"SELECT * FROM profiles");
-        echo "<table border='0' cellspacing='5px'>
+        echo "<table id = 'stutable'>
 		<tr>
-		<th> Roll no</td>
-		<th> Name of student (As per SSC)</td>
-		<th> Aggregate Percentage</td>
-		<th> Father's name</td>
-		<th> Email Address</td>
-		<th>Mobile No.</td>
-		<th> Parent's Mobile No.</td>
+			<th> Roll no</th>
+			<th> Name of student (As per SSC)</th>
+			<th> Aggregate Percentage</th>
+			<th> Father's name</th>
+			<th> Email Address</th>
+			<th> Mobile No.</th>
+			<th> Parent's Mobile No.</th>
 		</tr>
         <br>";
 
@@ -596,7 +603,7 @@ function stu_table()
         {
 			if ( $row['name']=="admin")
 			continue;
-			echo "<tr><td>" . $row['roll_no'] . "</td><td>" . $row['name'] . "</td><td>" . $row['aggregate'] . "</td><td>" . $row['father_name'] . "</td><td>" . $row['email'] . "</td><td>" . $row['mobile'] . "</td><td>" . $row['father_mobile'] . "</td><td><a href='details_admin.php?roll_no=".$row['roll_no']."'>View Full Details</a></td></tr>";
+			echo "<tr><td>" . $row['roll_no'] . "</td><td>" . $row['name'] . "</td><td>" . $row['aggregate'] . "</td><td>" . $row['father_name'] . "</td><td>" . $row['email'] . "</td><td>" . $row['mobile'] . "</td><td>" . $row['father_mobile'] . "</td><td style = 'background-color:darkgray;'><a href='details_admin.php?roll_no=".$row['roll_no']."''>View Full Details</a></td></tr>";
 		}
 
       	echo "</table>";
@@ -725,19 +732,22 @@ function details_admin()
     {
 
         if($row['regdno']== $temp.'.jpg' && $flag!=2)
-							{
-								echo "<div class = 'image_upload'><img src='".$row['image']."' style = 'margin : 0 0 0 200px;'></div>";
-							}
-					}
+		{
+			echo "<div class = 'image_upload'><img src='".$row['image']."' style = 'margin : 0 0 0 200px;'></div>";
+		}
+	}
     if($flag==0)
     {
         echo "<p style = 'margin : 150px 0 0 50px;'><center>The roll number is not registered in the database</p></center>";
     }
     echo "<input type = 'submit' id = 'submitForm' class = 'animated bounce' name  = 'submitForm' value = 'Update' >";
     echo "</form></table>";
-					mysqli_close($con);
+	mysqli_close($con);
 
 }
+
+// Update that can be done by admin only...
+
 function admin_update()
 {
 	$con =mysqli_connect("localhost","root","");
@@ -768,81 +778,81 @@ function admin_update()
 }
 function details_update()
 {
-					$con =mysqli_connect("localhost","root","");
-					mysqli_select_db($con,"info");
-                    $roll_no=$_POST['roll_no'];
-                    $name=$_POST['name'];
-                    $dob = $_POST['dob'];
-                    $sex = $_POST['sex'];
-                    $father_name=$_POST['father_name'];
-                    $address=$_POST['address'];
-                    $email=$_POST['email'];
-                    $mobile=$_POST['mobile'];
-                    $aadhaar_id = $_POST['aadhaar_id'];
-                    $father_mobile=$_POST['father_mobile'];
-                    $uname=$_POST['uname'];
-                    $pwd=$_POST['pwd'];
-                    $nationality = $_POST['nationality'];
-                    $caste = $_POST['caste'];
-                    $th10 = $_POST['th10'];
-                    $sc2 = $_POST['sc2'];
-                    $diploma = $_POST['diploma'];
-                    $one_1 = $_POST['one_1'];
-                    $two_1 = $_POST['two_1'];
-                    $three_1 = $_POST['three_1'];
-                    $four_1 = $_POST['four_1'];
-                    $one_2 = $_POST['one_2'];
-                    $two_2 = $_POST['two_2'];
-                    $three_2 = $_POST['three_2'];
-                    $four_2 = $_POST['four_2'];
-					$agg=$_POST['aggregate'];
-                    $attendance = $_POST['attendace'];
-                    $members = $_POST['members'];
-					$hobbies = $_POST['hobbies'];
-                    $academics1 = $_POST['academics1'];
-                    $academics2 = $_POST['academics2'];
-                    $academics3 = $_POST['academics3'];
-                    $academics4 = $_POST['academics4'];
-                    $curricular1 = $_POST['curricular1'];
-                    $curricular2 = $_POST['curricular2'];
-                    $curricular3 = $_POST['curricular3'];
-                    $curricular4 = $_POST['curricular4'];
-                    $co_curricular1 = $_POST['co_curricular1'];
-                    $co_curricular2 = $_POST['co_curricular2'];
-                    $co_curricular3 = $_POST['co_curricular3'];
-                    $co_curricular4 = $_POST['co_curricular4'];
-                    $extra_curricular1 = $_POST['extra_curricular1'];
-                    $extra_curricular2 = $_POST['extra_curricular2'];
-                    $extra_curricular3 = $_POST['extra_curricular3'];
-                    $extra_curricular4 = $_POST['extra_curricular4'];
-                    $others1 = $_POST['others1'];
-                    $others2 = $_POST['others2'];
-                    $others3 = $_POST['others3'];
-                    $others4 = $_POST['others4'];
-				   if($_POST['one_1']==0)
-							$_POST['aggregate']=0;
-					elseif($_POST['one_2']==0)
-							$_POST['aggregate']=$_POST['one_1']/1;
-					elseif($_POST['two_1']==0)
-							$_POST['aggregate']=($_POST['one_1']+$_POST['one_2'])/2;
-					elseif($_POST['two_2']==0)
-							$_POST['aggregate']=($_POST['one_1']+$_POST['one_2']+$_POST['two_1'])/3;
-					elseif($_POST['three_1']==0)
-							$_POST['aggregate']=($_POST['one_1']+$_POST['one_2']+$_POST['two_1']+$_POST['two_2'])/4;
-					elseif($_POST['three_2']==0)
-							$_POST['aggregate']=($_POST['one_1']+$_POST['one_2']+$_POST['two_1']+$_POST['two_2']+$_POST['three_1'])/5;
-					elseif($_POST['four_1']==0)
-							$_POST['aggregate']=($_POST['one_1']+$_POST['one_2']+$_POST['two_1']+$_POST['two_2']+$_POST['three_1']+$_POST['three_2'])/6;
-					elseif($_POST['four_2']==0)
-							$_POST['aggregate']=($_POST['one_1']+$_POST['one_2']+$_POST['two_1']+$_POST['two_2']+$_POST['three_1']+$_POST['three_2']+$_POST['four_1'])/7;
-					else
-							$_POST['aggregate']=($_POST['one_1']+$_POST['one_2']+$_POST['two_1']+$_POST['two_2']+$_POST['three_1']+$_POST['three_2']+$_POST['four_1']+$_POST['four_2'])/8;
-					$agg=$_POST['aggregate'];
-					$sql = "UPDATE profiles SET name='$name', dob='$dob', sex='$sex', father_name='$father_name', address='$address', email='$email',  mobile='$mobile', aadhaar_id='$aadhaar_id', father_mobile='$father_mobile',  uname='$uname', pwd='$pwd', nationality='$nationality', caste='$caste', th10='$th10', sc2='$sc2', diploma='$diploma',  attendance='$attendance', one_1='$one_1', two_1='$two_1', three_1='$three_1', four_1='$four_1', one_2='$one_2', two_2='$two_2', three_2='$three_2', four_2='$four_2', aggregate='$agg', members='$members', hobbies='$hobbies', academics1='$academics1', curricular1='$curricular1', co_curricular1='$co_curricular1', extra_curricular1='$extra_curricular1', others1='$others1', academics2='$academics2', curricular2='$curricular2', co_curricular2='$co_curricular2', extra_curricular2='$extra_curricular2', others2='$others2', academics3='$academics3', curricular3='$curricular3', co_curricular3='$co_curricular3', extra_curricular3='$extra_curricular3', others3='$others3', academics4='$academics4', curricular4='$curricular4', co_curricular4='$co_curricular4', extra_curricular4='$extra_curricular4', others4='$others4'
-					WHERE roll_no='$roll_no' ";
-					$ress = mysqli_query($con,$sql) or die(mysqli_error($con));
-                   echo "<center><br><br><br><br><br><br> Data Registered </center>";
-				   mysqli_close($con);
+	$con =mysqli_connect("localhost","root","");
+	mysqli_select_db($con,"info");
+    $roll_no=$_POST['roll_no'];
+    $name=$_POST['name'];
+    $dob = $_POST['dob'];
+    $sex = $_POST['sex'];
+    $father_name=$_POST['father_name'];
+    $address=$_POST['address'];
+    $email=$_POST['email'];
+    $mobile=$_POST['mobile'];
+    $aadhaar_id = $_POST['aadhaar_id'];
+    $father_mobile=$_POST['father_mobile'];
+    $uname=$_POST['uname'];
+    $pwd=$_POST['pwd'];
+    $nationality = $_POST['nationality'];
+    $caste = $_POST['caste'];
+    $th10 = $_POST['th10'];
+    $sc2 = $_POST['sc2'];
+    $diploma = $_POST['diploma'];
+    $one_1 = $_POST['one_1'];
+    $two_1 = $_POST['two_1'];
+    $three_1 = $_POST['three_1'];
+    $four_1 = $_POST['four_1'];
+    $one_2 = $_POST['one_2'];
+    $two_2 = $_POST['two_2'];
+    $three_2 = $_POST['three_2'];
+    $four_2 = $_POST['four_2'];
+	$agg=$_POST['aggregate'];
+    $attendance = $_POST['attendace'];
+    $members = $_POST['members'];
+	$hobbies = $_POST['hobbies'];
+    $academics1 = $_POST['academics1'];
+    $academics2 = $_POST['academics2'];
+    $academics3 = $_POST['academics3'];
+    $academics4 = $_POST['academics4'];
+    $curricular1 = $_POST['curricular1'];
+    $curricular2 = $_POST['curricular2'];
+    $curricular3 = $_POST['curricular3'];
+    $curricular4 = $_POST['curricular4'];
+    $co_curricular1 = $_POST['co_curricular1'];
+    $co_curricular2 = $_POST['co_curricular2'];
+    $co_curricular3 = $_POST['co_curricular3'];
+    $co_curricular4 = $_POST['co_curricular4'];
+    $extra_curricular1 = $_POST['extra_curricular1'];
+    $extra_curricular2 = $_POST['extra_curricular2'];
+    $extra_curricular3 = $_POST['extra_curricular3'];
+    $extra_curricular4 = $_POST['extra_curricular4'];
+    $others1 = $_POST['others1'];
+    $others2 = $_POST['others2'];
+    $others3 = $_POST['others3'];
+    $others4 = $_POST['others4'];
+    if($_POST['one_1']==0)
+			$_POST['aggregate']=0;
+	elseif($_POST['one_2']==0)
+			$_POST['aggregate']=$_POST['one_1']/1;
+	elseif($_POST['two_1']==0)
+			$_POST['aggregate']=($_POST['one_1']+$_POST['one_2'])/2;
+	elseif($_POST['two_2']==0)
+			$_POST['aggregate']=($_POST['one_1']+$_POST['one_2']+$_POST['two_1'])/3;
+	elseif($_POST['three_1']==0)
+			$_POST['aggregate']=($_POST['one_1']+$_POST['one_2']+$_POST['two_1']+$_POST['two_2'])/4;
+	elseif($_POST['three_2']==0)
+			$_POST['aggregate']=($_POST['one_1']+$_POST['one_2']+$_POST['two_1']+$_POST['two_2']+$_POST['three_1'])/5;
+	elseif($_POST['four_1']==0)
+			$_POST['aggregate']=($_POST['one_1']+$_POST['one_2']+$_POST['two_1']+$_POST['two_2']+$_POST['three_1']+$_POST['three_2'])/6;
+	elseif($_POST['four_2']==0)
+			$_POST['aggregate']=($_POST['one_1']+$_POST['one_2']+$_POST['two_1']+$_POST['two_2']+$_POST['three_1']+$_POST['three_2']+$_POST['four_1'])/7;
+	else
+			$_POST['aggregate']=($_POST['one_1']+$_POST['one_2']+$_POST['two_1']+$_POST['two_2']+$_POST['three_1']+$_POST['three_2']+$_POST['four_1']+$_POST['four_2'])/8;
+	$agg=$_POST['aggregate'];
+	$sql = "UPDATE profiles SET name='$name', dob='$dob', sex='$sex', father_name='$father_name', address='$address', email='$email',  mobile='$mobile', aadhaar_id='$aadhaar_id', father_mobile='$father_mobile',  uname='$uname', pwd='$pwd', nationality='$nationality', caste='$caste', th10='$th10', sc2='$sc2', diploma='$diploma',  attendance='$attendance', one_1='$one_1', two_1='$two_1', three_1='$three_1', four_1='$four_1', one_2='$one_2', two_2='$two_2', three_2='$three_2', four_2='$four_2', aggregate='$agg', members='$members', hobbies='$hobbies', academics1='$academics1', curricular1='$curricular1', co_curricular1='$co_curricular1', extra_curricular1='$extra_curricular1', others1='$others1', academics2='$academics2', curricular2='$curricular2', co_curricular2='$co_curricular2', extra_curricular2='$extra_curricular2', others2='$others2', academics3='$academics3', curricular3='$curricular3', co_curricular3='$co_curricular3', extra_curricular3='$extra_curricular3', others3='$others3', academics4='$academics4', curricular4='$curricular4', co_curricular4='$co_curricular4', extra_curricular4='$extra_curricular4', others4='$others4'
+	WHERE roll_no='$roll_no' ";
+	$ress = mysqli_query($con,$sql) or die(mysqli_error($con));
+   echo "<center><br><br><br><br><br><br> Data Registered </center>";
+   mysqli_close($con);
 }
 function stu_table_criteria()
 {

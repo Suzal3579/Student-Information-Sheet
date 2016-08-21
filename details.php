@@ -26,8 +26,8 @@
         <br>
         <form action="registrationPage.php" method="POST" class="form form--login">
             <?php
-                	include "functions.php";
-					details();
+            	include "functions.php";
+				details();
             ?>
         </form>
     </div>

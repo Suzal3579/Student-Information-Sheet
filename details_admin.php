@@ -21,9 +21,8 @@
 
 		<div id="bodyMain">
 			<?php
-			include "functions.php";       // add more field...... it is remaining
-			details_admin();
-
+				include "functions.php";       // add more field...... it is remaining
+				details_admin();
 			?>
 
 		</div>
