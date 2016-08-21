@@ -27,8 +27,7 @@
         <?php
 			include "functions.php";
 			stu_table_criteria();
-
-        ?>
+		?>
 
     </div>
 </body>

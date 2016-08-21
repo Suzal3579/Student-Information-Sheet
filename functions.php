@@ -609,6 +609,9 @@ function stu_table()
       	echo "</table>";
         mysqli_close($con);
 }
+
+// Details seen by admin ....
+
 function details_admin()
 {
     $con =mysqli_connect("localhost","root","");
@@ -776,6 +779,9 @@ function admin_update()
 		echo "<br><br><br><br><br> RESULT NOT FOUND <br>  Please try again!";
 	mysqli_close($con);
 }
+
+// Details that admin updates...
+
 function details_update()
 {
 	$con =mysqli_connect("localhost","root","");
@@ -851,9 +857,10 @@ function details_update()
 	$sql = "UPDATE profiles SET name='$name', dob='$dob', sex='$sex', father_name='$father_name', address='$address', email='$email',  mobile='$mobile', aadhaar_id='$aadhaar_id', father_mobile='$father_mobile',  uname='$uname', pwd='$pwd', nationality='$nationality', caste='$caste', th10='$th10', sc2='$sc2', diploma='$diploma',  attendance='$attendance', one_1='$one_1', two_1='$two_1', three_1='$three_1', four_1='$four_1', one_2='$one_2', two_2='$two_2', three_2='$three_2', four_2='$four_2', aggregate='$agg', members='$members', hobbies='$hobbies', academics1='$academics1', curricular1='$curricular1', co_curricular1='$co_curricular1', extra_curricular1='$extra_curricular1', others1='$others1', academics2='$academics2', curricular2='$curricular2', co_curricular2='$co_curricular2', extra_curricular2='$extra_curricular2', others2='$others2', academics3='$academics3', curricular3='$curricular3', co_curricular3='$co_curricular3', extra_curricular3='$extra_curricular3', others3='$others3', academics4='$academics4', curricular4='$curricular4', co_curricular4='$co_curricular4', extra_curricular4='$extra_curricular4', others4='$others4'
 	WHERE roll_no='$roll_no' ";
 	$ress = mysqli_query($con,$sql) or die(mysqli_error($con));
-   echo "<center><br><br><br><br><br><br> Data Registered </center>";
-   mysqli_close($con);
+    echo "<center><br><br><br><br><br><br> Data Registered </center>";
+    mysqli_close($con);
 }
+
 function stu_table_criteria()
 {
     $con =mysqli_connect("localhost","root","");
@@ -884,6 +891,9 @@ function stu_table_criteria()
 
     mysqli_close($con);
 }
+
+// Function to upload photo ...
+
 function upload()
 {
     $target_dir = "uploads/";
@@ -945,4 +955,4 @@ function upload()
     }
 }
 
-    ?>
+?>
