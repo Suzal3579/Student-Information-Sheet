@@ -24,12 +24,25 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.im.js"></script>
 
         <body class="align">
+			<img src=""/>
+			<div id = "asideCont" class="animated fadeInUp">
+					<u><h2 class = "page">BVC Engineering College, Odalarevu</h2></u>
+					<h3 class = "page ">Welcome To The Student Portal Of The Department Of Computer Science And Engineering.</h3>
+					<h4 class = "page ">Affiliated To : JNTUK, Kakinada</h4>
+					<h4 class = "page ">And Accredited BY : NBA New Delhi And NAAC With 'A' Grade</h4>
+					<h4 class = "page ">Approved By : AICTE, New Delhi</h4><br>
+					<h2 class = "page ">Established In 1997</h2>
+					<p class = "page ">In the service of the society for last 16 years. </p>
+		 			<p class = "page ">Our Motto : Quality Education. </p>
+
+			</div>
+
 
             <div class="site__container ">
 
                 <div class="grid__container animated fadeInDown">
 
-                    <h3 id="font-self"><a href="#"> The Student Information Sheet. </a></h3>
+                    <h3 id="font-self"><a href="#"> The Student Information Sheet </a></h3>
 
                     <form action="details.php" method="POST" class="form form--login">
 
