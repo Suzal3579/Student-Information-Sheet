@@ -38,6 +38,18 @@ a:hover {
     text-decoration: underline;
 }
 
+#asideCont{
+	position: absolute;
+	font-align : center;
+	margin : -300px 0 0 1050px;
+	text-align: center;
+	width: 250px;
+
+}
+
+.page{
+}
+
 input {
     border: 0;
     color: inherit;
