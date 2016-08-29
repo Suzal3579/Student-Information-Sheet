@@ -4,17 +4,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
+<head>
 
-	    <meta charset="UTF-8">
-	    <title>Login</title>
-	    <link rel="shortcut icon" href="bvc.png" type="image/x-icon" />
-	    <link rel="stylesheet" href="style.css">
-	    <link rel="stylesheet" href="animate.css">
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="shortcut icon" href="bvc.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
 
-	</head>
+</head>
 
-	<?php
+<?php
 		include "functions.php";
 		create();
 	?>
@@ -24,18 +24,18 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.im.js"></script>
 
         <body class="align">
-			<img src=""/>
-			<div id = "asideCont" class="animated fadeInUp">
-					<u><h2 class = "page">BVC Engineering College, Odalarevu</h2></u>
-					<h3 class = "page ">Welcome To The Student Portal Of The Department Of Computer Science And Engineering.</h3>
-					<h4 class = "page ">Affiliated To : JNTUK, Kakinada</h4>
-					<h4 class = "page ">And Accredited BY : NBA New Delhi And NAAC With 'A' Grade</h4>
-					<h4 class = "page ">Approved By : AICTE, New Delhi</h4><br>
-					<h2 class = "page ">Established In 1997</h2>
-					<p class = "page ">In the service of the society for last 16 years. </p>
-		 			<p class = "page ">Our Motto : Quality Education. </p>
+            <img src="group.png" class="group animated fadeInUp" />
+            <div id="asideCont" class="animated fadeInUp">
+                <u><h2 class = "page">BVC Engineering College, Odalarevu</h2></u>
+                <h3 class="page ">Welcome To The Student Portal Of The Department Of Computer Science And Engineering.</h3>
+                <h4 class="page ">Affiliated To : JNTUK, Kakinada</h4>
+                <h4 class="page ">And Accredited BY : NBA New Delhi And NAAC With 'A' Grade</h4>
+                <h4 class="page ">Approved By : AICTE, New Delhi</h4><br>
+                <h2 class="page ">Established In 1997</h2>
+                <p class="page ">In the service of the society for last 16 years. </p>
+                <p class="page ">Our Motto : Quality Education. </p>
 
-			</div>
+            </div>
 
 
             <div class="site__container ">
