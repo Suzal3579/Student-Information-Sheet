@@ -61,7 +61,7 @@
 
                 <div class="form__field">
                     <div class="new">
-                        <label class="fontawesome-user" for="login__username"><span class="hidden">Sex </span></label></div>
+                        <label class="fontawesome-user" for="login__username"><span class="hidden">Gender </span></label></div>
                     <select name="sex" id="sex_option">
                       <option value="N/A">-</option>
                       <option value="Male">Male</option>

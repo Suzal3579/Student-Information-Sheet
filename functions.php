@@ -291,7 +291,7 @@ function details()
 			$temp=$row['roll_no'];
             echo "<tr><th> Name of student (As per SSC)</td><td>" . $row['name'] . "</td></tr>";
             echo "<tr><th> DOB</td><td>" . $row['dob'] . "</td></tr>";
-            echo "<tr><th> Sex</td><td>" . $row['sex'] . "</td></tr>";
+            echo "<tr><th> Gender</td><td>" . $row['sex'] . "</td></tr>";
             echo "<tr><th> Father's name</td><td>" . $row['father_name'] . "</td></tr>";
             echo "<tr><th> Address</td><td>" . $row['address'] . "</td></tr>";
             echo "<tr><th> Email ID</td><td>" . $row['email'] . "</td></tr>";
@@ -633,7 +633,7 @@ function details_admin()
             echo "<br><br><tr><th> Roll Number</td><td><input class='loginName' type='text' class='form__input' name='roll_no'  value='".$row['roll_no'] ."'></td></tr>";
             echo "<tr><th> Name of student (As per SSC)</td><td><input class='loginName' type='text' class='form__input' value='".$row['name'] ."' name='name' ></td></tr>";
             echo "<tr><th> DOB</td><td><input class='loginName' type='text' class='form__input' value='"       .$row['dob'] ."' name='dob'  ></td></tr>";
-            echo "<tr><th> Sex</td><td><input class='loginName' type='text' class='form__input' value='"       .$row['sex'] ."' name='sex'  ></td></tr>";
+            echo "<tr><th> Gender</td><td><input class='loginName' type='text' class='form__input' value='"       .$row['sex'] ."' name='sex'  ></td></tr>";
             echo "<tr><th> Father's Name</td><td><input class='loginName' type='text' class='form__input' value='"    .$row['father_name'] . "'  name='father_name'  ></td></tr>";
             echo "<tr><th> Address</td><td><input class='loginName' type='text' class='form__input' value='"       .$row['address'] ."'  name='address' ></td></tr>";
 			echo "<tr><th> Email.</td><td><input class='loginName' type='text' class='form__input' value='"       .$row['email'] ."'  name='email' ></td></tr>";
