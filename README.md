@@ -1,4 +1,4 @@
-:book:   :blue_book: :fire:
+:book:   :blue_book: :fire: :bug:
 
 # Student-Information-Sheet
 
