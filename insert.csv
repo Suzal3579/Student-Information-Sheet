@@ -1,5 +1,5 @@
-roll_no *,name *,dob,father_name,address,email,mobile,aadhaar_id,father_mobile,uname,pwd,nationality,caste,th10,sc2,diploma,one_1,two_1,three_1,four_1,one_2,two_2,three_2,four_2,attendance,members,academics1,academics2,academics3,academics4,curricular1,curricular2,curricular3,curricular4,co_curricular1,co_curricular2,co_curricular3,co_curricular4,extra_curricular1,extra_curricular2,extra_curricular3,extra_curricular4,others1,others2,others3,others4
+roll_no  **,name *,dob,father_name,address,email,mobile,aadhaar_id,father_mobile,uname,pwd,nationality,caste,th10,sc2,diploma,one_1,two_1,three_1,four_1,one_2,two_2,three_2,four_2,attendance,members,academics1,academics2,academics3,academics4,curricular1,curricular2,curricular3,curricular4,co_curricular1,co_curricular2,co_curricular3,co_curricular4,extra_curricular1,extra_curricular2,extra_curricular3,extra_curricular4,others1,others2,others3,others4
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-14221A0789,Hamirammri,2/9/1990,kumar,rigal,pe.@gai,9945,987,hkhjvgv,hgjh,jhkjhkh,hghg,hghjg,89,89,98,98,98,98,76,76,65,787,87,98,,,,,,,,,,,,,,,,,,,,,
-14221A0573,hghj,9/8/1990,kjjhv,hlkjh,hhlkjh,978986,98987,jbkjh,jhjhlkj,kjhkjh,kjhkjh,kjhhg,89,98,98,87,65,78,65,87,56,87,98,56,,,,,,,,,,,,,,,,,,,,,
-1,admin,1/1/2001,jhkhj,jhghjg,jkghjhg,989,980,jkhh,admin,admin,kjhjh,kjhhg,989,67,56,787,989,9,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14221A07891as,pramesh,,,,,,,,pe.messh,pe.messh,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1223423sfdg4211,saurav,,,,,,,,pe.messh,pe.messh,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+sfd,admin,,,,,,,,ADMIN,ADMIN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

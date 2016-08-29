@@ -570,12 +570,11 @@ function import()                                         // Function made for e
         }
 
         if($sql){
-            echo "<br><br>You database has imported successfully. You have inserted '. $c .' records";
+            echo "<br><br>You database has imported successfully. You have inserted $c records";
         }
         else{
             echo "<br><br>Sorry! There is some problem in the file. Please recheck and upload again.";
         }
-
     }
 }
 
