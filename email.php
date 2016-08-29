@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="bvc.png" type="image/x-icon" />
 
 </head>
+
 <body>
 
     <header id="topHead" class="animated fadeInDown">
@@ -20,13 +21,14 @@
     </header>
 
     <div id="bodyMain">
-	     <?php
+        <?php
 	        include "functions.php";
 		  	emailSend();
 	      ?>
-		  <h3 class = "send"><center>
+            <h3 class="send"><center>
 			  Email Sent Successfully.
 		  </center></h3>
-     </div>
+    </div>
 </body>
+
 </html>

@@ -262,10 +262,16 @@ td {
     border-radius: 50px;
 }
 
-#emailDiv{
-	/* If needed give styling to position for email section here */
+#clear {
+    clear: both;
+    height: 50px;
+    width: 100%;
 }
 
-#emailForm_p{
-	margin : 80px 0 0 35px;
+#emailDiv {
+    /* If needed give styling to position for email section here */
+}
+
+#emailForm_p {
+    margin: 80px 0 0 35px;
 }

@@ -38,16 +38,12 @@ a:hover {
     text-decoration: underline;
 }
 
-#asideCont{
-	position: absolute;
-	font-align : center;
-	margin : -300px 0 0 1050px;
-	text-align: center;
-	width: 250px;
-
-}
-
-.page{
+#asideCont {
+    position: absolute;
+    color: #fff;
+    margin: -300px 0 0 1050px;
+    text-align: center;
+    width: 250px;
 }
 
 input {
@@ -201,4 +197,9 @@ input {
 .newFoot {
     float: right;
     margin-right: 20px;
+}
+
+.group {
+    position: absolute;
+    margin: -340px 0 0 20px;
 }
