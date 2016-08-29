@@ -416,8 +416,12 @@ function import()                                         // Function made for e
         $file = $_FILES['file']['tmp_name'];
         $handle = fopen($file, "r");
         $c = 0;
+		$x=0;
         while(($filesop = fgetcsv($handle, 1000, ",")) !== false)
         {
+			$x++;
+			if( $x==1)
+				continue;
             $roll_no= $filesop[0];
             $name= $filesop[1];
             $dob = $filesop[2];
