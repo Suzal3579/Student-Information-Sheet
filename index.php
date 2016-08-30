@@ -33,7 +33,7 @@
                 <img src="group.png" />
             </div>
         </div>
-        <div id="clear"></div>
+        <div class="clear"></div>
         <div class="navBarDiv">
             <nav class="navBar">
                 <ul class="topnav">
@@ -64,17 +64,20 @@
                 <aside id="buttonsAside">
                     <form class="navBar">
                         <nav id="navigationBar">
-                            <input type="submit" value="BVC News"><br><br>
-                            <input type="submit" value="Forthcoming Event"><br><br>
-                            <input type="submit" value="E-mail to students"><br><br>
-                            <input type="submit" value="SMS to Parents/Students"><br><br>
-                            <input type="submit" value="Feedback">
+                            <ul class="sideBar">
+                                <li><a href="#">BVC News</a></li>
+                                <li><a href="#">Forthcoming Event</a></li>
+                                <li><a href="#">E-mail to students</a></li>
+                                <li><a href="#">SMS to Parents/Students</a></li>
+                                <li><a href="#">Feedback</a></li>
+                            </ul>
                         </nav>
                     </form>
                 </aside>
             </div>
             <div class="centralDiv">
-                <h4>In the service of the society for last 20 years.<br> Our Motto Is to impart Quality Education.</h4>
+                <br>
+                <h4>In the service of the society for last 20 years.<br> Our Motto Is to impart Quality Education.</h4><br>
                 <h2>The Department of Computer Science and Engineering.</h2>
                 <h3 class="page ">Welcome To The Student Portal.</h3>
 
@@ -82,7 +85,7 @@
                     <div class="loginForm">
                         <form action="details.php" method="POST" class="form form--login">
                             <br>
-                            <h3>LOGIN </h3>
+                            <h2>LOGIN </h2>
                             <h4>Student <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             Admin <input type="radio"></h4>
                             <div class="form__field">
@@ -99,10 +102,13 @@
                                 <input type="submit" value="Sign In">
                             </div>
                         </form>
-
+                        <br>
                         <p class="text--center">New user?<a href="registrationPage.php" style="color:black;"> Please Register here ...  </a> <span class="fontawesome-arrow-right"></span></p>
                     </div>
                 </center>
+            </div>
+            <div class="asideRight">
+                <p>Marquee Text</p>
             </div>
 
 

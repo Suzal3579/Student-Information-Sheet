@@ -5,31 +5,58 @@
     <link rel="stylesheet" href="styleAbout.css">
 </head>
 
-<body class="align">
-    <img src="round.png" class="group " />
-    <img src="group.png" class="round " />
-    <nav>
-        <ul class="topnav" id="myTopnav">
-            <li><a class="active" href="index.php">Home</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="About.php">About Us</a></li>
-            <li><a href="vision.php">Vision Mission</a></li>
-            <li><a href="management.php">Management</a></li>
-            <li><a href="#">Principal</a></li>
-            <li><a href="#">Faculty</a></li>
-            <li><a href="#">Students</a></li>
-            <li><a href="Department.php">Departments</a></li>
-            <li><a href="#">Accredition</a></li>
-            <li><a href="#">Help</a></li>
-        </ul>
-    </nav>
-    <div id="asideCont">
-        <br><br>
-        <h2 style="margin : 100px 400px 0 0">BVC Engineering College, Odalarevu</h2>
-        <h3 style="margin : 10px 400px 0 0">Affiliated To  JNTUK, Kakinada</h3>
-        <h4 style="margin : 10px 400px 0 0">
-            Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997<br>
-        </h4>
+<body>
+    <div class="topDiv">
+        <div class="imageLeft">
+            <img src="round.png" />
+        </div>
+        <div id="asideCont">
+            <h2>BVC Engineering College, Odalarevu</h2>
+            <h3>Affiliated To  JNTUK, Kakinada</h3> Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997
+        </div>
+        <div class="imageRight">
+            <img src="group.png" />
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="navBarDiv">
+        <nav class="navBar">
+            <ul class="topnav">
+                <li><a class="active" href="index.php">Home</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="About.php">About Us</a></li>
+                <li><a href="vision.php">Vision &amp; Mission</a></li>
+                <li><a href="asd.php">Management</a></li>
+                <li><a href="#">Principal</a></li>
+                <li><a href="#">Faculty</a></li>
+                <li><a href="#">Students</a></li>
+                <li><a href="Department.php"> Departments</a>
+                    <ul class="submenu">
+
+                    </ul>
+                </li>
+                <li><a href="#">Accredition</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="bodyDiv">
+        <div class="forAside">
+            <aside id="buttonsAside">
+                <form class="navBar">
+                    <nav id="navigationBar">
+                        <ul class="sideBar">
+                            <li><a href="#">BVC News</a></li>
+                            <li><a href="#">Forthcoming Event</a></li>
+                            <li><a href="#">E-mail to students</a></li>
+                            <li><a href="#">SMS to Parents/Students</a></li>
+                            <li><a href="#">Feedback</a></li>
+                        </ul>
+                    </nav>
+                </form>
+            </aside>
+        </div>
+
         <div class="container">
             <h1 style="margin:130px 0 0 -350px;">About BVC Engineering Colleges</h1>
             <article>

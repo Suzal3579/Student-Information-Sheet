@@ -135,20 +135,6 @@ input {
     text-align: center;
 }
 
-#bottom-part {
-    height: 30px;
-}
-
-.newFooter {
-    float: left;
-    margin-left: 20px;
-}
-
-.newFoot {
-    float: right;
-    margin-right: 20px;
-}
-
 .topDiv {
     width: 100%;
 }
@@ -188,7 +174,7 @@ nav ul li {
     float: left;
 }
 
-#clear {
+.clear {
     clear: both;
 }
 
@@ -259,8 +245,12 @@ nav ul li {
 }
 
 .forAside {
-    width: 25%;
+    width: 22%;
+    height: 100%;
+    margin-top: 10%;
     float: left;
+    border-radius: 20px;
+    background-color: burlywood;
 }
 
 .centralDiv {
@@ -272,4 +262,37 @@ nav ul li {
 .loginForm {
     text-align: center;
     width: 60%;
+}
+
+.sideBar {
+    list-style-type: none;
+    margin: 4% 0 4% 2%;
+    padding: 0 0 0 4%;
+    width: 70%;
+    background-color: #f1f1f1;
+}
+
+.sideBar a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.sideBar a:hover {
+    border-radius: 20px;
+    background-color: firebrick;
+    color: white;
+}
+
+.asideRight {
+    width: 20%;
+}
+
+.newFooter {
+    float: left;
+}
+
+.newFoot {
+    float: right;
 }
