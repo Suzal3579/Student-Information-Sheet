@@ -13,17 +13,18 @@ html {
 }
 
 body {
-    background-image: url(background.png);
     color: #606468;
+    background: url(background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    /* For WebKit*/
+    -moz-background-size: cover;
+    /* Mozilla*/
+    -o-background-size: cover;
+    /* Opera*/
     font: 400 0.875rem/1.5 "Open Sans", sans-serif;
     min-height: 100%;
     background-size: cover;
     font-weight: bold;
-}
-
-#right {
-    margin: 0 0 0 150px;
-    float: right;
 }
 
 #font-self {
@@ -43,22 +44,6 @@ a:hover {
     text-decoration: underline;
 }
 
-#asideCont {
-    position: absolute;
-    text-align: center;
-    margin: -430px 0 0 400px;
-}
-
-.navBar {
-    display: inline;
-}
-
-#mainBody {
-    margin: 350px 0 0 300px;
-    width: 30%;
-    position: relative;
-}
-
 input {
     border: 0;
     color: inherit;
@@ -68,14 +53,6 @@ input {
     padding: 0;
     -webkit-transition: background-color .3s;
     transition: background-color .3s;
-}
-
-.site__container {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    padding: 3rem 0;
 }
 
 .form input[type="password"],
@@ -162,37 +139,8 @@ input {
     flex: 1;
 }
 
-.align {
-    -webkit-align-items: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-}
-
-.hidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
 .text--center {
     text-align: center;
-}
-
-.grid__container {
-    margin: 0 auto;
-    max-width: 20rem;
-    width: 90%;
 }
 
 #bottom-part {
@@ -210,25 +158,51 @@ input {
     margin-right: 20px;
 }
 
-.group {
-    position: absolute;
-    margin: -425px 0 0 20px;
+.mainDiv {
+    width: 100%;
 }
 
-.round {
-    position: absolute;
-    margin: -430px 0 0 1050px;
+.imageLeft {
+    float: left;
+    width: 25%;
 }
 
-#myTopnav {
-    position: absolute;
+#asideCont {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.imageRight {
+    width: 25%;
+    float: right;
+}
+
+.imageRight img {
+    float: right;
+}
+
+.navBar,
+.navBarDiv {
+    width: 100%;
+}
+
+navigationBar {
     width: 100%;
     border-radius: 20px;
     background-color: burlywood;
-    margin-top: -220px;
 }
 
-ul.topnav {
+nav ul li {
+    float: left;
+}
+
+
+/*
+.topnav {
+    width: 100%;
+    border-radius: 20px;
+    background-color: burlywood;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -236,12 +210,12 @@ ul.topnav {
     background-color: #0000fa;
 }
 
-ul.topnav li {
+.topnav li {
     float: left;
     margin-left: 4px;
 }
 
-ul.topnav li a {
+.topnav li a {
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
@@ -251,41 +225,38 @@ ul.topnav li a {
     font-size: 17px;
 }
 
-ul.topnav li a:hover {
+.topnav li a:hover {
     background-color: firebrick;
     text-decoration: underline;
     border-radius: 20px;
 }
 
-ul.topnav li.icon {
+.topnav li.icon {
     display: none;
 }
 
 @media screen and (max-width:680px) {
-    ul.topnav li:not(: first-child) {
+    .topnav li:not(: first-child) {
         display: none;
     }
-    ul.topnav li.icon {
+    .topnav li.icon {
         float: right;
         display: inline-block;
     }
 }
 
 @media screen and (max-width:680px) {
-    ul.topnav.responsive {
-        position: relative;
-    }
-    ul.topnav.responsive li.icon {
-        position: absolute;
+    .topnav.responsive {}
+    .topnav.responsive li.icon {
         right: 0;
         top: 0;
     }
-    ul.topnav.responsive li {
+    .topnav.responsive li {
         float: none;
         display: inline;
     }
-    ul.topnav.responsive li a {
+    .topnav.responsive li a {
         display: block;
         text-align: left;
     }
-}
+}*/
