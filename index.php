@@ -44,7 +44,18 @@
                     <li><a href="#">Principal</a></li>
                     <li><a href="#">Faculty</a></li>
                     <li><a href="#">Students</a></li>
-                    <li><a href="Department.php">Departments</a></li>
+                    <li>
+                        <a href="Department.php">
+                            Departments
+                        </a>
+                        <ul class="dropdown department">
+                            <li>CSE</li>
+                            <li>EEE</li>
+                            <li>ECE</li>
+                            <li>ME</li>
+                            <li>CE</li>
+                        </ul>
+                    </li>
                     <li><a href="#">Accredition</a></li>
                     <li><a href="#">Help</a></li>
                 </ul>
@@ -69,40 +80,39 @@
                 <h2>The Department of Computer Science and Engineering.</h2>
                 <h3 class="page ">Welcome To The Student Portal.</h3>
 
-                <div class="loginForm">
-                    <form action="details.php" method="POST" class="form form--login">
-                        <br>
-                        <h3><center>LOGIN </center></h3>
-                        <h5>Student <input type="radio">
-                            Admin <input type="radio"></h5>
-                        <div class="form__field">
-                            <h4>Username</h4>
-                            <input id="login__username" type="text" class="form__input" placeholder="Username" name="uname" required>
-                        </div>
+                <center>
+                    <div class="loginForm">
+                        <form action="details.php" method="POST" class="form form--login">
+                            <br>
+                            <h3>LOGIN </h3>
+                            <h4>Student <input type="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Admin <input type="radio"></h4>
+                            <div class="form__field">
+                                <label>Username</label>
+                                <input id="login__username" type="text" class="form__input" placeholder="" name="uname" required>
+                            </div>
 
-                        <div class="form__field">
-                            <h4>Password</h4>
-                            <input id="login__password" type="password" class="form__input" placeholder="Password" name="pwd" required>
-                        </div>
+                            <div class="form__field">
+                                <label>Password</label>
+                                <input id="login__password" type="password" class="form__input" placeholder="" name="pwd" required>
+                            </div>
 
-                        <div class="form__field__signup animated rubberBand">
-                            <input type="submit" value="Sign In">
-                        </div>
-                    </form>
+                            <div class="form__field__signup">
+                                <input type="submit" value="Sign In">
+                            </div>
+                        </form>
 
-                    <p class="text--center">New user <a href="registrationPage.php" style="color:black;"> Please Register here ...  </a> <span class="fontawesome-arrow-right"></span></p>
-                </div>
+                        <p class="text--center">New user?<a href="registrationPage.php" style="color:black;"> Please Register here ...  </a> <span class="fontawesome-arrow-right"></span></p>
+                    </div>
+                </center>
             </div>
 
 
-            <footer id="bottom-part">
-
-                <p class="newFooter"> Copyright &copy; -2016</p>
-                <p class="newFoot">BVC Engineering College @ CSE</p>
-
-
-            </footer>
         </div>
+        <footer id="bottom-part">
+            <p class="newFooter"> Copyright &copy; -2016</p>
+            <p class="newFoot">BVC Engineering College @ CSE</p>
+        </footer>
 
     </body>
 
