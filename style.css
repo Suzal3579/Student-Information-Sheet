@@ -158,7 +158,7 @@ input {
     margin-right: 20px;
 }
 
-.mainDiv {
+.topDiv {
     width: 100%;
 }
 
@@ -195,6 +195,10 @@ navigationBar {
 
 nav ul li {
     float: left;
+}
+
+#clear {
+    clear: both;
 }
 
 

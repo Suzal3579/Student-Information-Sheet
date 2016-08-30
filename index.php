@@ -32,8 +32,9 @@
                 <img src="group.png" />
             </div>
         </div>
-        <div class="navBar">
-            <nav>
+        <div id="clear"></div>
+        <div class="navBarDiv">
+            <nav class="navBar">
                 <ul class="topnav">
                     <li><a class="active" href="index.php">Home</a></li>
                     <li><a href="contact.php">Contact</a></li>
