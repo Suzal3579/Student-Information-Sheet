@@ -10,6 +10,7 @@
     <title>Login</title>
     <link rel="shortcut icon" href="bvc.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="animate.css">
 
 </head>
@@ -44,12 +45,9 @@
                     <li><a href="#">Principal</a></li>
                     <li><a href="#">Faculty</a></li>
                     <li><a href="#">Students</a></li>
-                    <li>
-                        <a href="Department.php">
-                            Departments
-                        </a>
-                        <ul class="dropdown department">
-                            <li>CSE</li>
+                    <li><a href="Department.php"> Departments</a>
+                        <ul class="submenu">
+                            <li><a href="#">CSE</a></li>
                             <li>EEE</li>
                             <li>ECE</li>
                             <li>ME</li>

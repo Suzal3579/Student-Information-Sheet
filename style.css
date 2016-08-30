@@ -273,11 +273,3 @@ nav ul li {
     text-align: center;
     width: 60%;
 }
-
-.dropdown {
-    display: none;
-}
-
-.dropdown:hover {
-    display: inline-block;
-}
