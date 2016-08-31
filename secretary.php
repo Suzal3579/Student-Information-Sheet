@@ -30,6 +30,9 @@
 </h1>
                 <h2>Bonam Venkata Chalamayya Engineering College,<br> Odalarevu</h2>
                 <h3>Affiliated To  JNTUK, Kakinada</h3> Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997<br><br>
+                <?php
+                echo "Today's Date : ".date("Y/m/d")." And Time ".date("h:i")."<br><br>";
+            ?>
             </div>
             <div class="imageRight">
                 <img src="group.png" />
@@ -44,13 +47,15 @@
                     <li><a href="contact.php">Contact</a></li>
                     <li><a href="About.php">About Us</a></li>
                     <li><a href="vision.php">Vision &amp; Mission</a></li>
-                    <li><a href="asd.php">Management</a>
+                    <li><a href="#">Management</a>
 
                         <ul class="submenu">
                             <li><a href="founderchairman.php">Founder-Chairman</a></li>
                             <li><a href="secretary.php">Secretary</a></li>
                             <li><a href="chairman.php">Chairman</a></li>
                             <li><a href="vicechairman.php">Vice-Chairman</a></li>
+                            <li><a href="dean.php">Dean</a></li>
+
                         </ul>
                     </li>
                     <li><a href="principal.php">Principal</a></li>
@@ -77,7 +82,7 @@
                         <ul class="submenu1">
                             <li><a href="naac.php">NAAC</a></li>
                             <li><a href="nba.php">NBA</a></li>
-                <li><a href="pio.php">PIO</a></li>
+                            <li><a href="pio.php">PIO</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Help</a></li>
@@ -113,9 +118,9 @@
                     <div class="centralDiv">
                         <br>
                         <br>
-                        <h2>The Founder Chairman</h2>
-                        <img src="fch.png">
-                        <h3>Late Sri Bonam Venkata Chalamayya</h3>
+                        <h2>Secretary</h2>
+                        <img src="picsPage/secretary.png" style="width:300px; height:250px;">
+                        <h3>Sri Bonam Kanakayya</h3>
                     </div>
                 </div>
             </center>

@@ -47,14 +47,14 @@
                     <li><a href="contact.php">Contact</a></li>
                     <li><a href="About.php">About Us</a></li>
                     <li><a href="vision.php">Vision &amp; Mission</a></li>
-                    <li><a href="asd.php">Management</a>
+                    <li><a href="#">Management</a>
 
                         <ul class="submenu">
                             <li><a href="founderchairman.php">Founder-Chairman</a></li>
                             <li><a href="secretary.php">Secretary</a></li>
                             <li><a href="chairman.php">Chairman</a></li>
                             <li><a href="vicechairman.php">Vice-Chairman</a></li>
-                                                        <li><a href="dean.php">Dean</a></li>
+                            <li><a href="dean.php">Dean</a></li>
 
                         </ul>
                     </li>
@@ -79,7 +79,7 @@
                         </ul>
                     </li>
                     <li><a href="#">Accredition</a>
-                        <ul class="submenu">
+                        <ul class="submenu1">
                             <li><a href="naac.php">NAAC</a></li>
                             <li><a href="nba.php">NBA</a></li>
                             <li><a href="pio.php">PIO</a></li>
@@ -118,9 +118,9 @@
                     <div class="centralDiv">
                         <br>
                         <br>
-                        <h2>The Founder Chairman</h2>
-                        <img src="fch.png">
-                        <h3>Late Sri Bonam Venkata Chalamayya</h3>
+                        <h2>The Administration Dean</h2>
+                        <img src="picsPage/dean.png" style="width:300px; height:250px;">
+                        <h3>Prof. T V Janardhan Rao</h3>
                     </div>
                 </div>
             </center>

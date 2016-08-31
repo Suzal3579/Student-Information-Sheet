@@ -279,7 +279,7 @@ nav ul li {
 }
 
 .sideBar li {
-    margin-top: 0px;
+    display: inline-block;
 }
 
 .sideBar a {
