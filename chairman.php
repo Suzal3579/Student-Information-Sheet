@@ -26,7 +26,8 @@
                 <img src="round.png" />
             </div>
             <div id="asideCont">
-                <h1>बोनम  वेंकटा  चालामाया इंजीनियरिंग महाविध्यालय</h1>
+                <h1>बोनम  वेंकटा  चालामाया इंजीनियरिंग महाविध्यालय
+</h1>
                 <h2>Bonam Venkata Chalamayya Engineering College,<br> Odalarevu</h2>
                 <h3>Affiliated To  JNTUK, Kakinada</h3> Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997<br><br>
             </div>
@@ -86,7 +87,7 @@
                     <div class="forAside">
                         <aside id="buttonsAside">
                             <nav id="navigationBar">
-                                <ul class="sideBar" style="margin-left:-90px;">
+                                <ul class="sideBar" style="margin-left:-25%;">
                                     <li><a href="#">Academics</a></li>
                                     <li><a href="#">Administration</a></li>
                                     <li><a href="#">BVC News</a></li>
@@ -108,48 +109,13 @@
                         </aside>
                     </div>
                     <div class="centralDiv">
-                        <br><br>
-                        <h4>In the service of the society for last 20 years.<br> Our Motto Is to impart Quality Education.</h4><br>
-                        <h2>The Department of Computer Science and Engineering.</h2>
-                        <h3 class="page ">Welcome To The Student Portal.</h3>
-
-                        <center>
-                            <div class="loginForm">
-                                <form action="details.php" method="POST" class="form form--login">
-                                    <br>
-                                    <h2>LOGIN </h2>
-                                    <h4>Student <input type="radio" name="userType" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Admin <input type="radio" name="userType"></h4>
-                                    <div class="form__field">
-                                        <label>Username</label>
-                                        <input id="login__username" type="text" class="form__input" placeholder="" name="uname" required>
-                                    </div>
-
-                                    <div class="form__field">
-                                        <label>Password</label>
-                                        <input id="login__password" type="password" class="form__input" placeholder="" name="pwd" required>
-                                    </div>
-
-                                    <div class="form__field__signup">
-                                        <input type="submit" value="Sign In">
-                                    </div>
-                                </form>
-                                <br>
-                                <p class="text--center">New user?<a href="registrationPage.php" style="color:black;"> Please Register here ...  </a> <span class="fontawesome-arrow-right"></span></p>
-                            </div>
-                        </center>
+                        <br>
+                        <br>
+                        <h2>The Founder Chairman</h2>
+                        <img src="fch.png">
+                        <h3>Late Sri Bonam Venkata Chalamayya</h3>
                     </div>
-                    <div class="asideRight">
-                        <p>.</p>
-                    </div>
-
-
                 </div>
-                <footer id="bottom_part">
-                    <p class="newFooter"> Copyright &copy; -2016</p>
-                    <p class="newFoot">BVC Engineering College @ CSE</p>
-
-                </footer>
             </center>
         </div>
     </body>

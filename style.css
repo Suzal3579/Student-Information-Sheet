@@ -147,7 +147,13 @@ input {
 #asideCont {
     text-align: center;
     width: 50%;
+    color: dimgray;
     float: left;
+}
+
+#asideCont h2,
+h3 {
+    color: dimgray;
 }
 
 .imageRight {
@@ -245,7 +251,7 @@ nav ul li {
 }
 
 .forAside {
-    width: 25%;
+    width: 23.5%;
     height: 100%;
     margin-top: 5%;
     float: left;
@@ -272,6 +278,10 @@ nav ul li {
     background-color: #f1f1f1;
 }
 
+.sideBar li {
+    margin-top: 0px;
+}
+
 .sideBar a {
     display: inline-block;
     color: #000;
@@ -289,18 +299,24 @@ nav ul li {
     width: 20%;
 }
 
-.newFooter {
-    float: left;
-}
-
-.newFoot {
-    float: right;
-}
-
 .container {
     margin: 5% 5% 5% 30%;
 }
 
 .container p {
     text-align: justify;
+}
+
+#bottom_part {
+    width: 93%;
+    position: absolute;
+    margin: 4% 2% 2% 2.5%;
+}
+
+.newFooter {
+    float: left;
+}
+
+.newFoot {
+    float: right;
 }

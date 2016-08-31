@@ -30,27 +30,50 @@
         </div>
     </div>
     <div class="clear"></div>
-    <div class="navBarDiv">
-        <nav class="navBar">
-            <ul class="topnav">
-                <li><a class="active" href="index.php">Home</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <li><a href="About.php">About Us</a></li>
-                <li><a href="vision.php">Vision &amp; Mission</a></li>
-                <li><a href="asd.php">Management</a></li>
-                <li><a href="#">Principal</a></li>
-                <li><a href="#">Faculty</a></li>
-                <li><a href="#">Students</a></li>
-                <li><a href="Department.php"> Departments</a>
-                    <ul class="submenu">
+    <ul class="menu">
+        <li><a class="active" href="index.php">Home</a></li>
+        <li><a href="contact.php">Contact</a></li>
+        <li><a href="About.php">About Us</a></li>
+        <li><a href="vision.php">Vision &amp; Mission</a></li>
+        <li><a href="asd.php">Management</a>
 
-                    </ul>
-                </li>
-                <li><a href="#">Accredition</a></li>
-                <li><a href="#">Help</a></li>
+            <ul class="submenu">
+                <li><a href="founderchairman.php">Founder-Chairman</a></li>
+                <li><a href="secretary.php">Secretary</a></li>
+                <li><a href="chairman.php">Chairman</a></li>
+                <li><a href="vicechairman.php">Vice-Chairman</a></li>
             </ul>
-        </nav>
-    </div>
+        </li>
+        <li><a href="principal.php">Principal</a></li>
+        <li><a href="faculty.php">Faculty</a>
+            <ul class="submenu1">
+                <li><a href="#">CSE</a></li>
+                <li><a href="#">CE</a></li>
+                <li><a href="#">ME</a></li>
+                <li><a href="#">EEE</a></li>
+                <li><a href="#">ECE</a></li>
+            </ul>
+        </li>
+        <li><a href="index.php">Students</a></li>
+        <li><a href="#"> Departments</a>
+            <ul class="submenu1">
+                <li><a href="Department.php">CSE</a></li>
+                <li><a href="#">CE</a></li>
+                <li><a href="#">ME</a></li>
+                <li><a href="#">EEE</a></li>
+                <li><a href="#">ECE</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Accredition</a>
+            <ul class="submenu1">
+                <li><a href="naac.php">NAAC</a></li>
+                <li><a href="nba.php">NBA</a></li>
+                <li><a href="pio.php">PIO</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Help</a></li>
+
+    </ul>
     <div class="bodyDiv">
         <div class="forAside">
             <aside id="buttonsAside">

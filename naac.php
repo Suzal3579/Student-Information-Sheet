@@ -92,22 +92,15 @@
                 </form>
             </aside>
         </div>
-
         <center>
             <div class="container">
-
-
-                <h1>Department Profile</h1>
-
-                <h1>Computer Science and Engineering</h1>
-
-                <br>
+                <h1>NAAC</h1>
                 <p>
-                    The Department of Computer Science and Engineering was established in 1998 with an intake of 40 and subsequently, the intake was enhanced to 120 from the academic year 2007-2008. The department is headed by Dr Gunamani Jena with teaching experience of 16 years and total experience of 28 years. There are 33 faculty members in the composition of 02 Professor, 08 Associate Professor and 23 Assistant Professors. Twenty five members have M. Tech qualification. Two faculty members are pursing Ph.D</p>
 
-                <p> The Department is offering M. Tech in CSE. The departmental faculty are actively involving in research activities. As a result of that there are 82 publications in various national and international conferences and journals. The department has excellent placement record nearly 87 out of 112 students are placed in various MNCs in the academic year 2010-11. The department has conducted workshop on MATLAB, workshop on LaTex, National conference SCTA (Soft Computing Techniques and Applications) and student symposium Resonance 2K15 during the academic year 2015-16. 14 batches of students have completed their B. Tech degree and most of them are placed in top MNCs. It has strong Alumni which meets annually.<br><br></p>
+                    The National Assessment and Accreditation Council (NAAC) is an organisation that assesses and accredits institutions of higher education in India. It is an autonomous body funded by University Grants Commission of Government of India headquartered in Bangalore.</p>
 
-                <img src="CSEdepart.png" border=5px width=75%>
+
+                <p> NAAC was established in 1994 in response to recommendations of National Policy in Education (1986). This policy was to "address the issues of deterioration in quality of education", and the Plan of Action (POA-1992) laid out strategic plans for the policies including the establishment of an independent national accreditation body.Consequently, the NAAC was established in 1994 with its headquarters at Bangalore.</p>
 
 
 
@@ -118,6 +111,9 @@
 
             </div>
         </center>
+        <br>
+        <br>
+        <br>
     </div>
 </body>
 

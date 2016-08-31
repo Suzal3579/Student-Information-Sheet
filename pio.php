@@ -92,32 +92,18 @@
                 </form>
             </aside>
         </div>
-
         <center>
             <div class="container">
+                <h1>PIO</h1>
+                <p>Persons of Indian Origin Card (PIO Card) was a form of identification issued to a Person of Indian Origin who held a passport in a country other than Afghanistan, Bangladesh, Bhutan, China, Nepal, Pakistan and Sri Lanka.
+                    <br> On 9 January 2015, the Person of Indian Origin card scheme was withdrawn by the Government of India and was merged with the Overseas Citizen of India card scheme. All currently held PIO cards are treated as OCI cards. PIO card holders will get a special stamp in their existing PIO card, saying "lifelong validity" and "registration not required", thus making them equal to existing OCI cards.</p>
 
-
-                <h1>Department Profile</h1>
-
-                <h1>Computer Science and Engineering</h1>
-
-                <br>
-                <p>
-                    The Department of Computer Science and Engineering was established in 1998 with an intake of 40 and subsequently, the intake was enhanced to 120 from the academic year 2007-2008. The department is headed by Dr Gunamani Jena with teaching experience of 16 years and total experience of 28 years. There are 33 faculty members in the composition of 02 Professor, 08 Associate Professor and 23 Assistant Professors. Twenty five members have M. Tech qualification. Two faculty members are pursing Ph.D</p>
-
-                <p> The Department is offering M. Tech in CSE. The departmental faculty are actively involving in research activities. As a result of that there are 82 publications in various national and international conferences and journals. The department has excellent placement record nearly 87 out of 112 students are placed in various MNCs in the academic year 2010-11. The department has conducted workshop on MATLAB, workshop on LaTex, National conference SCTA (Soft Computing Techniques and Applications) and student symposium Resonance 2K15 during the academic year 2015-16. 14 batches of students have completed their B. Tech degree and most of them are placed in top MNCs. It has strong Alumni which meets annually.<br><br></p>
-
-                <img src="CSEdepart.png" border=5px width=75%>
-
-
-
-
-
-
-
-
+                <p>Person Of Indian Origin (PIO) As per the Gazette of India (Part-I, Section-I) published on 09.01.2015, all the existing Persons of Indian Origin (PIO) card holder registered as such under new PIO Card scheme 2002, shall be deemed to be Overseas Citizens of India Cardholder. Again as per the Gazette of India (Part-I, Section-I) published on 30.09.2014, a PIO card issued to an applicant shall be valid for his lifetime, provided such applicant has a valid Passport.</p>
             </div>
         </center>
+        <br>
+        <br>
+        <br>
     </div>
 </body>
 

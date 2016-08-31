@@ -74,7 +74,7 @@
                         </ul>
                     </li>
                     <li><a href="#">Accredition</a>
-                        <ul class="submenu">
+                        <ul class="submenu1">
                             <li><a href="naac.php">NAAC</a></li>
                             <li><a href="nba.php">NBA</a></li>
                 <li><a href="pio.php">PIO</a></li>

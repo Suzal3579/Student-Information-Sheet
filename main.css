@@ -104,12 +104,12 @@
     -o-transition: opacity .4s, -o-transform .5s;
     transition: opacity .4s, transform .5s;
     min-width: 300px;
+    border-bottom: 1px solid black;
     border-radius: 0px;
 }
 
 .menu .submenu li:hover a {
-    border-left: 3px solid #FFF;
-    border-radius: 20px;
+    border-bottom: 3px solid #FFF;
     color: #ffffff;
 }
 
@@ -290,11 +290,11 @@
     transition: opacity .4s, transform .5s;
     min-width: 145px;
     border-radius: 0px;
+    border-bottom: 1px solid black;
 }
 
 .menu .submenu1 li:hover a {
-    border-left: 3px solid #FFF;
-    border-radius: 20px;
+    border-bottom: 3px solid #FFF;
     color: #ffffff;
 }
 

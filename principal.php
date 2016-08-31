@@ -88,7 +88,7 @@
                         <aside id="buttonsAside">
                             <form class="navBar">
                                 <nav id="navigationBar">
-                                    <ul class="sideBar" style="margin-left:-25%;">
+                                    <ul class="sideBar">
                                         <li><a href="#">Academics</a></li>
                                         <li><a href="#">Administration</a></li>
                                         <li><a href="#">BVC News</a></li>
@@ -113,9 +113,9 @@
                     <div class="centralDiv">
                         <br>
                         <br>
-                        <h2>The Founder Chairman</h2>
+                        <h2>Principal</h2>
                         <img src="fch.png">
-                        <h3>Late Sri Bonam Venkata Chalamayya</h3>
+                        <h3>Principal's Name</h3>
                     </div>
                 </div>
             </center>
