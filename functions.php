@@ -12,6 +12,25 @@ function create()
     $create_db = mysql_query($create);
     $db_name = "info";
     $select = mysql_select_db($db_name,$con);
+    $create_table1 = "CREATE TABLE faculty
+                    (name char(50),
+                    dob date,
+                    sex text(10),
+                    father_name char(50),
+                    address text(90),
+                    email char(40),
+                    mobile bigint(16),
+                    aadhaar_id bigint(20),
+                    uname varchar(30),
+                    pwd varchar(30),
+                    nationality text(30),
+                    caste text(30),
+                    qualifications text,
+                    specialization text,
+                    
+                    members text,
+					hobbies text
+                    );";
     $create_table = "CREATE TABLE profiles
                     (roll_no varchar(10) PRIMARY KEY ,
                     name char(50),
@@ -64,6 +83,7 @@ function create()
                     others4 text
                     );";
     $table = mysql_query($create_table);
+    $table1 = mysql_query($create_table1);
     mysql_close($con);
 }
 

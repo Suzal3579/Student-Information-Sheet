@@ -46,11 +46,22 @@
                 <form class="navBar">
                     <nav id="navigationBar">
                         <ul class="sideBar">
+                            <li><a href="#">Academics</a></li>
+                            <li><a href="#">Administration</a></li>
                             <li><a href="#">BVC News</a></li>
                             <li><a href="#">Forthcoming Event</a></li>
                             <li><a href="#">E-mail to students</a></li>
                             <li><a href="#">SMS to Parents/Students</a></li>
-                            <li><a href="#">Feedback</a></li>
+                            <li><a href="#">Recruitment</a></li>
+                            <li><a href="#">Professional Body</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Department Library</a></li>
+                            <li><a href="#">Training</a></li>
+                            <li><a href="#">Games And Sports</a></li>
+                            <li><a href="#">Placement</a></li>
+                            <li><a href="#">Feedback to College</a></li>
+                            <li><a href="#">Alumini</a></li>
+                            <li><a href="#">Notices &amp; Circulars</a></li>
                         </ul>
                     </nav>
                 </form>
@@ -60,26 +71,28 @@
 
 
         <center>
-            <h1 style="margin:100px 0 0 0px;">Vision and Mission</h1>
+            <div class="container">
+                <h1>Vision and Mission</h1>
 
-            <h1 style="margin:50px 0 0 0px;">Vision</h1>
+                <h1>Vision</h1>
 
-            <p style="margin:30px 0 0 60px;width:95%;">
+                <p>
 
-                To become a leading technical institute of academic excellence by imparting high patterns of discipline through innovative programs of global standards making our students technologically superior and ethically strong to serve the Nation.</p>
-
-
-            <h1 style="margin:50px 0 0 0px;">Mission</h1>
-
-            <p style="margin:30px 0 0 60px;width:95%;"> To create an environment that shall foster the growth of intellectually capable, innovative professionals who can contribute to the growth of Technology in partnership with industry and develop and harness it for the welfare of the Nation and mankind. </p>
+                    To become a leading technical institute of academic excellence by imparting high patterns of discipline through innovative programs of global standards making our students technologically superior and ethically strong to serve the Nation.</p>
 
 
+                <h1>Mission</h1>
 
+                <p> To create an environment that shall foster the growth of intellectually capable, innovative professionals who can contribute to the growth of Technology in partnership with industry and develop and harness it for the welfare of the Nation and mankind. </p>
 
 
 
 
 
+
+
+
+            </div>
         </center>
         <br>
         <br>

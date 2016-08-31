@@ -1,88 +1,94 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-div.container {
-    width: 100%;
-    border: 1px solid gray;
-}
-
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: #2980b9;
-    clear: left;
-    text-align: center;
-}
-
-
-article {
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-}
-
-body {
-	
-	background-color: white;
-
-	}
-</style>
-<style>
-.button {
-   border-top: 1px solid #96d1f8;
-   background: #2f434f;
-   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#2f434f));
-   background: -webkit-linear-gradient(top, #3e779d, #2f434f);
-   background: -moz-linear-gradient(top, #3e779d, #2f434f);
-   background: -ms-linear-gradient(top, #3e779d, #2f434f);
-   background: -o-linear-gradient(top, #3e779d, #2f434f);
-   padding: 16.5px 33px;
-   -webkit-border-radius: 13px;
-   -moz-border-radius: 13px;
-   border-radius: 13px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: white;
-   font-size: 18px;
-   font-family: Georgia, Serif;
-   text-decoration: none;
-   vertical-align: middle;
-   }
-.button:hover {
-   border-top-color: #106aa6;
-   background: #106aa6;
-   color: #bd31bd;
-   }
-.button:active {
-   border-top-color: #8f9aa1;
-   background: #8f9aa1;
-   }
-</style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="topDiv">
+        <div class="imageLeft">
+            <img src="round.png" />
+        </div>
+        <div id="asideCont">
+            <h2>BVC Engineering College, Odalarevu</h2>
+            <h3>Affiliated To  JNTUK, Kakinada</h3> Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997
 
-<div class="container">
+        </div>
+        <div class="imageRight">
+            <img src="group.png" />
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="navBarDiv">
+        <nav class="navBar">
+            <ul class="topnav">
+                <li><a class="active" href="index.php">Home</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="About.php">About Us</a></li>
+                <li><a href="vision.php">Vision &amp; Mission</a></li>
+                <li><a href="asd.php">Management</a></li>
+                <li><a href="#">Principal</a></li>
+                <li><a href="#">Faculty</a></li>
+                <li><a href="#">Students</a></li>
+                <li><a href="Department.php"> Departments</a>
+                    <ul class="submenu">
 
-<header>
-   <h1>CONTACT US AT</h1>
-</header>
-  
+                    </ul>
+                </li>
+                <li><a href="#">Accredition</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="bodyDiv">
+        <div class="forAside">
+            <aside id="buttonsAside">
+                <form class="navBar">
+                    <nav id="navigationBar">
+                        <ul class="sideBar">
+                            <li><a href="#">Academics</a></li>
+                            <li><a href="#">Administration</a></li>
+                            <li><a href="#">BVC News</a></li>
+                            <li><a href="#">Forthcoming Event</a></li>
+                            <li><a href="#">E-mail to students</a></li>
+                            <li><a href="#">SMS to Parents/Students</a></li>
+                            <li><a href="#">Recruitment</a></li>
+                            <li><a href="#">Professional Body</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Department Library</a></li>
+                            <li><a href="#">Training</a></li>
+                            <li><a href="#">Games And Sports</a></li>
+                            <li><a href="#">Placement</a></li>
+                            <li><a href="#">Feedback to College</a></li>
+                            <li><a href="#">Alumini</a></li>
+                            <li><a href="#">Notices &amp; Circulars</a></li>
+                        </ul>
+                    </nav>
+                </form>
+            </aside>
+        </div>
+        <div class="container">
+
+            <header>
+                <h1>CONTACT US AT</h1>
+            </header>
 
 
-<article>
-  <h2><p> BVC Engineering College </br>Odalarevu</br>Mandal: Allavaram</br>East Godavari District</br>City: Amalapuram</br>Andhra Pradesh</br>Pin no: 533210</br> </p></h2>
-</article>
+
+            <article>
+                <h4><p> BVC Engineering College ,Odalarevu<br>Mandal: Allavaram<br>East Godavari District<br>City: Amalapuram</br>Andhra Pradesh</br>Pin no: 533210<br></h4>
+                <h4>Website : www.bvcec.org</h4>
+                <h4>E-mail Id : info.bvce@bvcgroup.in</h4>
+                <h4>Contact Number : +91-9440121621</h4>
+            </article>
 
 
-<footer>
-All &copy;copyrights are reserved 2016.
-</footer>
+            <footer>
+                All &copy;copyrights are reserved 2016.
+            </footer>
 
-</div>
+        </div>
 
 </body>
 </br>
@@ -91,7 +97,8 @@ All &copy;copyrights are reserved 2016.
 </br>
 
 <div align="right">
-<form method="POST" action='ex1.php'><button class="button">HOME</button></form></div>
+    <form method="POST" action='ex1.php'><button class="button">HOME</button></form>
+</div>
 <div align="right">
-</html>
 
+</html>

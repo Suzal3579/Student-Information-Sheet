@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styleAbout.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -50,7 +50,11 @@
                             <li><a href="#">Forthcoming Event</a></li>
                             <li><a href="#">E-mail to students</a></li>
                             <li><a href="#">SMS to Parents/Students</a></li>
-                            <li><a href="#">Feedback</a></li>
+                            <li><a href="#">Feedback to College</a></li>
+                            <li><a href="#">Alumini</a></li>
+                            <li><a href="#">Professional Body</a></li>
+                            <li><a href="#">Department Library</a></li>
+                            <li><a href="#">Games And Sports</a></li>
                         </ul>
                     </nav>
                 </form>
@@ -58,15 +62,17 @@
         </div>
 
         <div class="container">
-            <h1 style="margin:130px 0 0 -350px;">About BVC Engineering Colleges</h1>
-            <article>
 
-                <!--    <h1 style="margin:30px 0 0 -350px;">BVCEC</h1>-->
-                <center>
-                    <p align="justify" style="margin:30px 0 0 -350px;width:95%;"><strong><u>Institutional Profile</u></strong><br><br><br> Bonam Venkata Chalamayya Engineering College Bonam Venkata Chalamayya Engineering College (BVCEC), Odalarevu was established in the year 1997 under B V C Educational Society with a vision to provide quality technical education to the rural youth. It is the first private engineering college in East Godavari District of Andhra Pradesh, India. BVCEC is located in a sprawling area of 35 acres of land surrounded by the exhilarating nature with coconut trees (known as Mini Goa)and the Bay of Bengal hogging and auspicious river Godavari flowing in one side. Being away from the din and bustle of the city life it is conducive for the professional study. The pleasant, calm, serene environment is suitable for technical education. This Institution is one of the most preferred among all JNTUK affiliated colleges, known for its good infrastructure, excellent result &amp; quality placement. The institution focuses on specially designed Training &amp; Placement programs for its students to ensure them a secured future. The Institution was specially recognized by AICTE, New Delhi for imparting training to students in competitive examinations like GATE, GRE &amp; TOEFL. Our regular recruiters are WIPRO, SINGULARITY, SYNTEL, TREWPORT, HCL Tech, EFFOTRONICS, BAYDATA COM, SRIRAM GROUP, ASHOK LEYLAND, BTBP, Mahindra Satyam, Moldtek etc. The Institution is offering five U.G. Programs in the disciplines of Mechanical, Electrical &amp; Electronics, Electronics &amp; Communication, Computer Science and Civil Engineering and five P.G. Programs with specializations like Embedded Systems, ECE, Computer Science, Thermal Engineering and Power Electronics. All the eligible U.G. Courses are accredited by NBA of AICTE, New Delhi for three years and the college is permanently affiliated to Jawaharlal Nehru Technological University, Kakinada. The institution is also Accredited by IAO (International Accreditation Organization), USA. The college encourages research and consultancy activities. The Air conditioned Central library is rich in literature with good volumes both in print as well as on line. The college provides A/C and non A/C accommodation for the students. The college has collaboration with industry through MOUs and partnership. The college has Gymnasium, sports facilities with Wi-Fi enabled (10 Mbps speed Internet) campus.<br><br><br>
+            <center>
+                <h1>About BVC Engineering Colleges</h1>
+                <article>
+
+                    <!--    <h1 style="margin:30px 0 0 -350px;">BVCEC</h1>-->
+                    <p><strong><u>Institutional Profile</u></strong><br><br><br> Bonam Venkata Chalamayya Engineering College Bonam Venkata Chalamayya Engineering College (BVCEC), Odalarevu was established in the year 1997 under B V C Educational Society with a vision to provide quality technical education to the rural youth. It is the first private engineering college in East Godavari District of Andhra Pradesh, India. BVCEC is located in a sprawling area of 35 acres of land surrounded by the exhilarating nature with coconut trees (known as Mini Goa)and the Bay of Bengal hogging and auspicious river Godavari flowing in one side. Being away from the din and bustle of the city life it is conducive for the professional study. The pleasant, calm, serene environment is suitable for technical education. This Institution is one of the most preferred among all JNTUK affiliated colleges, known for its good infrastructure, excellent result &amp; quality placement. The institution focuses on specially designed Training &amp; Placement programs for its students to ensure them a secured future. The Institution was specially recognized by AICTE, New Delhi for imparting training to students in competitive examinations like GATE, GRE &amp; TOEFL. Our regular recruiters are WIPRO, SINGULARITY, SYNTEL, TREWPORT, HCL Tech, EFFOTRONICS, BAYDATA COM, SRIRAM GROUP, ASHOK LEYLAND, BTBP, Mahindra Satyam, Moldtek etc. The Institution is offering five U.G. Programs in the disciplines of Mechanical, Electrical &amp; Electronics, Electronics &amp; Communication, Computer Science and Civil Engineering and five P.G. Programs with specializations like Embedded Systems, ECE, Computer Science, Thermal Engineering and Power Electronics. All the eligible U.G. Courses are accredited by NBA of AICTE, New Delhi for three years and the college is permanently affiliated to Jawaharlal Nehru Technological University, Kakinada. The institution is also Accredited by IAO (International Accreditation Organization), USA. The college encourages research and consultancy activities. The Air conditioned Central library is rich in literature with good volumes both in print as well as on line. The college provides A/C and non A/C accommodation for the students. The college has collaboration with industry through MOUs and partnership. The college has Gymnasium, sports facilities with Wi-Fi enabled (10 Mbps speed Internet) campus.<br><br><br>
                     </p>
-                </center>
-            </article>
+                    <img src="bvcFYB.png" width=75%>
+                </article>
+            </center>
         </div>
     </div>
 </body>
