@@ -8,6 +8,7 @@
 
     <meta charset="UTF-8">
     <title>Login</title>
+    <script src="script.js"></script>
     <link rel="shortcut icon" href="bvc.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.css">
@@ -123,7 +124,7 @@
                                 <form action="details.php" method="POST" class="form form--login">
                                     <br>
                                     <h2>LOGIN </h2>
-                                    <h4>Student <input type="radio" name="userType" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <h4>Student <input type="radio" name="userType">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             Admin <input type="radio" name="userType"></h4>
                                     <div class="form__field">
                                         <label>Username</label>
