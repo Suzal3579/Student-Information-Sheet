@@ -2,17 +2,20 @@
 
 <html lang="en">
 
-	<head>
+<head>
 
-	    <meta charset="UTF-8">
-	    <title>Student Details Information.</title>
-	    <link rel="stylesheet" href="styleReg.css">
-	    <link rel="stylesheet" href="animate.css">
-	    <link rel="shortcut icon" href="bvc.png" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <title>Student Details Information.</title>
+    <link rel="stylesheet" href="styleReg.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="bvc.png" type="image/x-icon" />
 
 
-	</head>
-	<?php
+</head>
+<?php
 	    $con = mysql_connect("localhost","root","");
 	    $create = mysql_query("CREATE DATABASE image");
 	    mysql_select_db("image",$con) or die (mysql_error());
@@ -22,12 +25,96 @@
 	?>
 
     <body>
+        <div class="topDiv">
+            <div class="imageLeft">
+                <img src="round.png" />
+            </div>
+            <div id="asideCont">
+                <h2>BVC Engineering College, Odalarevu</h2>
+                <h3>Affiliated To  JNTUK, Kakinada</h3> Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997<br><br>
+                <?php
+                echo "Today's Date : ".date("Y/m/d")." And Time ".date("h:i")."<br><br>";
+            ?>
+            </div>
+            <div class="imageRight">
+                <img src="group.png" />
+            </div>
+        </div>
+        <div class="clear"></div>
+        <ul class="menu">
+            <li><a class="active" href="index.php">Home</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="About.php">About Us</a></li>
+            <li><a href="vision.php">Vision &amp; Mission</a></li>
+            <li><a href="#">Management</a>
 
-        <header id="topHead" class="animated fadeInDown">
-            <h2><a href="index.php">Student Information Sheet - BVCEC</a></h2>
-            <a href="index.php"><img id="home" src="download.png" style="width : 65px ; height : 65px;"></a>
-        </header>
+                <ul class="submenu">
+                    <li><a href="founderchairman.php">Founder-Chairman</a></li>
+                    <li><a href="secretary.php">Secretary</a></li>
+                    <li><a href="chairman.php">Chairman</a></li>
+                    <li><a href="vicechairman.php">Vice-Chairman</a></li>
+                    <li><a href="dean.php">Dean</a></li>
 
+                </ul>
+            </li>
+            <li><a href="principal.php">Principal</a></li>
+            <li><a href="faculty.php">Faculty</a>
+                <ul class="submenu1">
+                    <li><a href="#">CSE</a></li>
+                    <li><a href="#">CE</a></li>
+                    <li><a href="#">ME</a></li>
+                    <li><a href="#">EEE</a></li>
+                    <li><a href="#">ECE</a></li>
+                </ul>
+            </li>
+            <li><a href="index.php">Students</a></li>
+            <li><a href="#"> Departments</a>
+                <ul class="submenu1">
+                    <li><a href="Department.php">CSE</a></li>
+                    <li><a href="#">CE</a></li>
+                    <li><a href="#">ME</a></li>
+                    <li><a href="#">EEE</a></li>
+                    <li><a href="#">ECE</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Accredition</a>
+                <ul class="submenu1">
+                    <li><a href="naac.php">NAAC</a></li>
+                    <li><a href="nba.php">NBA</a></li>
+                    <li><a href="pio.php">PIO</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Help</a></li>
+
+        </ul>
+        <div class="bodyDiv">
+            <div class="forAside" style="margin-top:-7px;">
+                <aside id="buttonsAside">
+                    <form class="navBar">
+                        <nav id="navigationBar">
+                            <ul class="sideBar">
+                                <li><a href="#">Academics</a></li>
+                                <li><a href="#">Administration</a></li>
+                                <li><a href="#">BVC News</a></li>
+                                <li><a href="#">Forthcoming Event</a></li>
+                                <li><a href="#">E-mail to students</a></li>
+                                <li><a href="#">SMS to Parents/Students</a></li>
+                                <li><a href="#">Recruitment</a></li>
+                                <li><a href="#">Professional Body</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">Department Library</a></li>
+                                <li><a href="#">Training</a></li>
+                                <li><a href="#">Games And Sports</a></li>
+                                <li><a href="#">Placement</a></li>
+                                <li><a href="#">Feedback to College</a></li>
+                                <li><a href="#">Alumini</a></li>
+                                <li><a href="#">Notices &amp; Circulars</a></li>
+                            </ul>
+                        </nav>
+                    </form>
+                </aside>
+            </div>
+        </div>
         <div id="bodyMain">
             <div id="uploadImagediv">
                 <image src="uploadlogo.png" id="uploadImage"></image>
@@ -240,11 +327,11 @@
 	            	insert();
                 ?>
 
-                <center>
-                    <article id="left_art">
-                        Press the button below for registering !
-                    </article><input type="submit" value="Submit" name="submit" id="form_submit" target="_blank">
-				</center>
+                    <center>
+                        <article id="left_art">
+                            Press the button below for registering !
+                        </article><input type="submit" value="Submit" name="submit" id="form_submit" target="_blank">
+                    </center>
             </form>
         </div>
     </body>

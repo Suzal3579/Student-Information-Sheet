@@ -269,10 +269,10 @@ function details()
 
         if($row['uname']==$uname && $row['pwd']==$pwd && $row['name']=="admin")
 		{
-            echo "<br><br><h3 align = 'center'>";
-			echo " Welcome admin";
-            echo "</h3>";
-			echo "<br><h4 align = 'center'><a href='admin.php'>Press here to continue!</a></h4>";
+            echo "<br><br><h2 align = 'center'>";
+			echo "Welcome admin";
+            echo "</h2>";
+			echo "<br><h4 align ='center'><a href='admin.php' style='color:#636363;text-align :center;'>Press here to continue!</a></h4>";
 			$flag=2;
 
 
