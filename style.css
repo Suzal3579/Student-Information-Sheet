@@ -308,15 +308,49 @@ nav ul li {
 }
 
 #bottom_part {
-    width: 93%;
+    float: left;
     position: absolute;
-    margin: 4% 2% 2% 2.5%;
+    margin: 4% 2% 2% 73%;
+}
+
+#bottom_part p {
+    animation-duration: 700ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#bottom_part p:hover {
+    animation-duration: 0ms;
+}
+
+@keyframes blink {
+    from {
+        opacity: 1;
+        color: navy;
+    }
+    to {
+        opacity: 0.5;
+        color: red;
+    }
 }
 
 .newFooter {
     float: left;
 }
 
-.newFoot {
+#footer {
+    margin-top: 4%;
+    width: 100%;
+    float: left;
+}
+
+#left {
+    float: left;
+    margin-left: 4%;
+}
+
+#right {
     float: right;
+    margin-right: 4%;
 }

@@ -130,6 +130,10 @@
 
 
     </div>
+    <footer id="footer">
+        <h4 id="left">Copyright &copy; - <?php echo "20".date('y');?></h4>
+        <h4 id="right">BVCEC</h4>
+    </footer>
 </body>
 
 </html>

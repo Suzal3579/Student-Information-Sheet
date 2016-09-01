@@ -145,18 +145,28 @@
                         </center>
                     </div>
                     <div class="asideRight">
-                        <p>.</p>
+                        <p></p>
                     </div>
 
 
                 </div>
-                <footer id="bottom_part">
-                    <p class="newFooter"> Copyright &copy; -2016</p>
-                    <p class="newFoot">BVC Engineering College @ CSE</p>
+                <div id="bottom_part">
+                    <p class="newFooter"> News<br><br><br>
+                        <marquee behavior="scroll" scrollamount="5" direction="left" onmouseover="this.setAttribute('scrollamount',0);" onmouseout="this.setAttribute('scrollamount',5);">Fresher's Day at Sept 3
+                        </marquee>
+                        <br><br>
+                        <marquee behavior="scroll" scrollamount="5" direction="left" onmouseover="this.setAttribute('scrollamount',0);" onmouseout="this.setAttribute('scrollamount',5);"> Monday College Closed.
+                            <br><br>
+                        </marquee>
 
-                </footer>
+                    </p>
+                </div>
             </center>
         </div>
     </body>
+    <footer id="footer">
+        <h4 id="left">Copyright &copy; - <?php echo "20".date('y');?></h4>
+        <h4 id="right">BVCEC</h4>
+    </footer>
 
 </html>

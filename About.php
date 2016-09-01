@@ -35,7 +35,7 @@
                 <li><a href="secretary.php">Secretary</a></li>
                 <li><a href="chairman.php">Chairman</a></li>
                 <li><a href="vicechairman.php">Vice-Chairman</a></li>
-                                            <li><a href="dean.php">Dean</a></li>
+                <li><a href="dean.php">Dean</a></li>
 
             </ul>
         </li>
@@ -125,6 +125,10 @@
             </center>
         </div>
     </div>
+    <footer id="footer">
+        <h4 id="left">Copyright &copy; - <?php echo "20".date('y');?></h4>
+        <h4 id="right">BVCEC</h4>
+    </footer>
 </body>
 <br>
 <br>
