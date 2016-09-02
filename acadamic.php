@@ -14,7 +14,8 @@
         </div>
         <div id="asideCont">
             <h2>BVC Engineering College, Odalarevu</h2>
-            <h3>Affiliated To  JNTUK, Kakinada</h3> Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997<br><br>
+            <h3>Affiliated To  JNTUK, Kakinada</h3> Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997
+
         </div>
         <div class="imageRight">
             <span id="date_time"></span>
@@ -55,11 +56,11 @@
         <li><a href="#"> Departments</a>
             <ul class="submenu1">
                 <li><a href="Department.php">CSE</a></li>
-              
-                            <li><a href="civil.php">CE</a></li>
-                            <li><a href="mech.php">ME</a></li>
-                            <li><a href="eee.php">EEE</a></li>
-                            <li><a href="ece.php">ECE</a></li>
+
+                <li><a href="civil.php">CE</a></li>
+                <li><a href="mech.php">ME</a></li>
+                <li><a href="eee.php">EEE</a></li>
+                <li><a href="ece.php">ECE</a></li>
             </ul>
         </li>
         <li><a href="#">Accredition</a>
@@ -73,7 +74,7 @@
 
     </ul>
     <div class="bodyDiv">
-        <div class="forAside" style="margin-top:-7px;">
+        <div class="forAside" style="margin-top:-0.5%;">
             <aside id="buttonsAside">
                 <form class="navBar">
                     <nav id="navigationBar">
@@ -99,43 +100,42 @@
                 </form>
             </aside>
         </div>
+        <div class="container">
+
+            <header>
+                <h1>Academics Of BVCEC</h1>
+            </header>
 
 
 
-        <center>
-            <div class="container">
-                <h1>Vision and Mission</h1>
+            <article>
 
-                <h1>Vision</h1>
+                <h1>UG Course(B.Tech.)</h1>
 
-                <p>
+                <h4>
+				Computer Science Engineering<br>Civil Engineering<br>Mechanical Engineering<br>Electronics and Electrical Engineering<br>Electrical and Communication Engineering<br>
+				</h4>
+                <br>
+                <h1>PG Course(M.Tech.)</h1>
 
-                    To become a leading technical institute of academic excellence by imparting high patterns of discipline through innovative programs of global standards making our students technologically superior and ethically strong to serve the Nation.</p>
+                <h4>
+				CSE<br>SOFTWARE ENGINEERING<br>ECE<br>POWER ELECTRONICS<br>THERMAL ENGINEERING<br>EMBEDDED SYSTEMS<br>
+				SOIL MECHANICS AND FOUNDATION ENGINEERING<br>ADAVANCED MANUFACTURING SYSTEMS
+				</h4>
 
-
-                <h1>Mission</h1>
-
-                <p> To create an environment that shall foster the growth of intellectually capable, innovative professionals who can contribute to the growth of Technology in partnership with industry and develop and harness it for the welfare of the Nation and mankind. </p>
-
-
-
-
-
-
-
-
-            </div>
-        </center>
-        <br>
-        <br>
-        <br>
+            </article>
+            <br>
+            <br>
+            <br>
+            <br>
 
 
+            <footer>
+                All &copy;copyrights are reserved 2016.
+            </footer>
+
+        </div>
     </div>
-    <footer id="footer">
-        <h4 id="left">Copyright &copy; - <?php echo "20".date('y');?></h4>
-        <h4 id="right">BVCEC</h4>
-    </footer>
 </body>
 
 </html>

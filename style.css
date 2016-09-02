@@ -165,6 +165,11 @@ h3 {
     float: right;
 }
 
+span {
+    position: absolute;
+    margin-top: 13.5%;
+}
+
 .navBar,
 .navBarDiv {
     width: 100%;
@@ -307,17 +312,26 @@ nav ul li {
     text-align: justify;
 }
 
+.container ul li {
+    text-align: left;
+}
+
 #bottom_part {
     float: left;
     position: absolute;
     margin: 4% 2% 2% 73%;
 }
 
-#bottom_part p {
+#bottom_part h2 {
+    text-align: center;
+}
+
+#bottom_part> p {
     animation-duration: 700ms;
     animation-name: blink;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    text-align: center;
 }
 
 #bottom_part p:hover {

@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="date_time.js"></script>
 </head>
 
 <body>
@@ -14,12 +15,13 @@
         <div id="asideCont">
             <h2>BVC Engineering College, Odalarevu</h2>
             <h3>Affiliated To  JNTUK, Kakinada</h3> Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997<br><br>
-            <?php
-                echo "Today's Date : ".date("Y/m/d")." And Time ".date("h:i")."<br><br>";
-            ?>
-
         </div>
         <div class="imageRight">
+            <span id="date_time"></span>
+            <script type="text/javascript">
+                window.onload = date_time('date_time');
+
+            </script>
             <img src="group.png" />
         </div>
     </div>
@@ -36,7 +38,6 @@
                 <li><a href="secretary.php">Secretary</a></li>
                 <li><a href="chairman.php">Chairman</a></li>
                 <li><a href="vicechairman.php">Vice-Chairman</a></li>
-                <li><a href="dean.php">Dean</a></li>
 
             </ul>
         </li>
@@ -54,10 +55,11 @@
         <li><a href="#"> Departments</a>
             <ul class="submenu1">
                 <li><a href="Department.php">CSE</a></li>
-                <li><a href="#">CE</a></li>
-                <li><a href="#">ME</a></li>
-                <li><a href="#">EEE</a></li>
-                <li><a href="#">ECE</a></li>
+
+                <li><a href="civil.php">CE</a></li>
+                <li><a href="mech.php">ME</a></li>
+                <li><a href="eee.php">EEE</a></li>
+                <li><a href="ece.php">ECE</a></li>
             </ul>
         </li>
         <li><a href="#">Accredition</a>
@@ -75,7 +77,7 @@
             <aside id="buttonsAside">
                 <nav id="navigationBar">
                     <ul class="sideBar">
-                        <li><a href="#">Academics</a></li>
+                        <li><a href="acadamic.php">Academics</a></li>
                         <li><a href="#">Administration</a></li>
                         <li><a href="#">BVC News</a></li>
                         <li><a href="#">Forthcoming Event</a></li>
@@ -89,7 +91,7 @@
                         <li><a href="#">Games And Sports</a></li>
                         <li><a href="#">Placement</a></li>
                         <li><a href="#">Feedback to College</a></li>
-                        <li><a href="#">Alumini</a></li>
+                        <li><a href="alumini.php">Alumini</a></li>
                         <li><a href="#">Notices &amp; Circulars</a></li>
                     </ul>
                 </nav>
@@ -111,8 +113,8 @@
             </article>
             <aside class="map" style="float:right; margin-left:10%;">
                 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-                <div style='overflow:hidden;height:440px;width:662px;margin-left:30%;'>
-                    <div id='gmap_canvas' style='height:240px;width:462px;border:2px solid gray;'></div>
+                <div style='overflow:hidden;height:600px;width:662px;margin-left:36%;'>
+                    <div id='gmap_canvas' style='height:600px;width:462px;border:2px solid gray;margin-top:-25%;position:absolute;'></div>
 
                     <style>
                         #gmap_canvas img {
@@ -125,14 +127,14 @@
                 <script type='text/javascript'>
                     function init_map() {
                         var myOptions = {
-                            zoom: 10,
-                            center: new google.maps.LatLng(16.46982694408489, 81.93206051503896),
+                            zoom: 5,
+                            center: new google.maps.LatLng(21.331654257466333, 89.53758715000002),
                             mapTypeId: google.maps.MapTypeId.ROADMAP
                         };
                         map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
                         marker = new google.maps.Marker({
                             map: map,
-                            position: new google.maps.LatLng(16.46982694408489, 81.93206051503896)
+                            position: new google.maps.LatLng(21.331654257466333, 89.53758715000002)
                         });
                         infowindow = new google.maps.InfoWindow({
                             content: '<strong>BVC</strong><br>Odalarevu<br>'

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="animate.css">
+    <script type="text/javascript" src="date_time.js"></script>
 
 </head>
 
@@ -35,6 +36,11 @@
             ?>
             </div>
             <div class="imageRight">
+                <span id="date_time"></span>
+                <script type="text/javascript">
+                    window.onload = date_time('date_time');
+
+                </script>
                 <img src="group.png" />
             </div>
         </div>
@@ -72,10 +78,11 @@
                     <li><a href="#"> Departments</a>
                         <ul class="submenu1">
                             <li><a href="Department.php">CSE</a></li>
-                            <li><a href="#">CE</a></li>
-                            <li><a href="#">ME</a></li>
-                            <li><a href="#">EEE</a></li>
-                            <li><a href="#">ECE</a></li>
+
+                            <li><a href="civil.php">CE</a></li>
+                            <li><a href="mech.php">ME</a></li>
+                            <li><a href="eee.php">EEE</a></li>
+                            <li><a href="ece.php">ECE</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Accredition</a>
@@ -94,7 +101,7 @@
                             <form class="navBar">
                                 <nav id="navigationBar">
                                     <ul class="sideBar" style="margin-left:-25%;">
-                                        <li><a href="#">Academics</a></li>
+                                        <li><a href="acadamic.php">Academics</a></li>
                                         <li><a href="#">Administration</a></li>
                                         <li><a href="#">BVC News</a></li>
                                         <li><a href="#">Forthcoming Event</a></li>
@@ -108,7 +115,7 @@
                                         <li><a href="#">Games And Sports</a></li>
                                         <li><a href="#">Placement</a></li>
                                         <li><a href="#">Feedback to College</a></li>
-                                        <li><a href="#">Alumini</a></li>
+                                        <li><a href="alumini.php">Alumini</a></li>
                                         <li><a href="#">Notices &amp; Circulars</a></li>
                                     </ul>
                                 </nav>

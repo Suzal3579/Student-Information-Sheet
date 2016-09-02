@@ -1,10 +1,8 @@
-<!-- Developed by Saurav Bajracharya and Pramesh Bajracharya -->
-
-
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
+      
+        <script type="text/javascript" src="date_time.js"></script>
 
     <meta charset="UTF-8">
     <title>Login</title>
@@ -12,14 +10,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="animate.css">
-    <script type="text/javascript" src="date_time.js"></script>
 
 </head>
 
-<?php
-		include "functions.php";
-		create();
-?>
 
     <body>
         <div class="topDiv">
@@ -30,19 +23,21 @@
                 <h1>बोनम  वेंकटा  चालामाया इंजीनियरिंग महाविध्यालय
 </h1>
                 <h2>Bonam Venkata Chalamayya Engineering College,<br> Odalarevu</h2>
-                <h3>Affiliated To  JNTUK, Kakinada</h3>
-                <h5>Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997</h5>
-
+                <h3>Affiliated To  JNTUK, Kakinada</h3> Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997<br><br>
             </div>
             <div class="imageRight">
                 <img src="group.png" />
-                <br><br> <span id="date_time"></span>
-                <script type="text/javascript">
-                    window.onload = date_time('date_time');
-
-                </script>
+				
+				
             </div>
-        </div>
+        
+		
+				</br></br>
+				
+            <span id="date_time"></span>
+            <script type="text/javascript">window.onload = date_time('date_time');</script>
+		
+		</div>
         <div class="clear"></div>
 
         <div id="main" role="main">
@@ -53,18 +48,7 @@
                     <li><a href="About.php">About Us</a></li>
                     <li><a href="vision.php">Vision &amp; Mission</a></li>
                     <li><a href="asd.php">Management</a>
-
                         <ul class="submenu">
-                            <li><a href="founderchairman.php">Founder-Chairman</a></li>
-                            <li><a href="secretary.php">Secretary</a></li>
-                            <li><a href="chairman.php">Chairman</a></li>
-                            <li><a href="vicechairman.php">Vice-Chairman</a></li>
-
-                        </ul>
-                    </li>
-                    <li><a href="principal.php">Principal</a></li>
-                    <li><a href="faculty.php">Faculty</a>
-                        <ul class="submenu1">
                             <li><a href="#">CSE</a></li>
                             <li><a href="#">CE</a></li>
                             <li><a href="#">ME</a></li>
@@ -72,22 +56,25 @@
                             <li><a href="#">ECE</a></li>
                         </ul>
                     </li>
-                    <li><a href="index.php">Students</a></li>
-                    <li><a href="#"> Departments</a>
-                        <ul class="submenu1">
-                          <li><a href="Department.php">CSE</a></li>
-              
-                            <li><a href="civil.php">CE</a></li>
-                            <li><a href="mech.php">ME</a></li>
-                            <li><a href="eee.php">EEE</a></li>
-                            <li><a href="ece.php">ECE</a></li>
+                    <li><a href="#">Principal</a></li>
+                    <li><a href="faculty.php">Faculty</a></li>
+                    <li><a href="#">Students</a></li>
+                    <li><a href="Department.php"> Departments</a>
+                        <ul class="submenu">
+                            <li><a href="#">CSE</a></li>
+                            <li><a href="#">CE</a></li>
+                            <li><a href="#">ME</a></li>
+                            <li><a href="#">EEE</a></li>
+                            <li><a href="#">ECE</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Accredition</a>
-                        <ul class="submenu1">
-                            <li><a href="naac.php">NAAC</a></li>
-                            <li><a href="nba.php">NBA</a></li>
-                            <li><a href="pio.php">PIO</a></li>
+                        <ul class="submenu">
+                            <li><a href="#">CSE</a></li>
+                            <li><a href="#">CE</a></li>
+                            <li><a href="#">ME</a></li>
+                            <li><a href="#">EEE</a></li>
+                            <li><a href="#">ECE</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Help</a></li>
@@ -98,7 +85,7 @@
                         <aside id="buttonsAside">
                             <form class="navBar">
                                 <nav id="navigationBar">
-                                    <ul class="sideBar" style="margin-left:-25%;">
+                                    <ul class="sideBar">
                                         <li><a href="acadamic.php">Academics</a></li>
                                         <li><a href="#">Administration</a></li>
                                         <li><a href="#">BVC News</a></li>
@@ -113,7 +100,7 @@
                                         <li><a href="#">Games And Sports</a></li>
                                         <li><a href="#">Placement</a></li>
                                         <li><a href="#">Feedback to College</a></li>
-                                        <li><a href="alumini.php">Alumini</a></li>
+                                        <li><a href="al.php">Alumini</a></li>
                                         <li><a href="#">Notices &amp; Circulars</a></li>
                                     </ul>
                                 </nav>
@@ -121,19 +108,59 @@
                         </aside>
                     </div>
                     <div class="centralDiv">
-                        <br>
-                        <br>
-                        <h2>Principal</h2>
-                        <img src="picsPage/principal.png" style="width:300px; height:250px;">
-                        <h3>Dr. D SV Prasad</h3>
-                    </div>
-                </div>
-            </center>
-        </div>
-        <footer id="footer">
-            <h4 id="left">Copyright &copy; - <?php echo "20".date('y');?></h4>
-            <h4 id="right">BVCEC</h4>
-        </footer>
-    </body>
+			
+<?PHP
+	$con = mysql_connect("localhost","root","bvcecskrv");
+    $create = "CREATE DATABASE info";
+    $create_db = mysql_query($create);
+    $db_name = "info";
+    $select = mysql_select_db($db_name,$con);
+    $create_table1 = "CREATE TABLE forum
+                    (feild1 text,
+                    name text,
+					time timestamp
+                    );";
+					
+	?>
+			
+	<?php
+$con =mysqli_connect("localhost","root","bvcecskrv");
+mysqli_select_db($con,"info");
+	$feild1=$_POST['feild1'];
+	$name=$_POST['name'];
+	$sql="INSERT INTO forum(
+		feild1,name)
+		VALUES('$feild1','$name');";
+	$result1 = mysqli_query($con,$sql) or die(mysqli_error($con));
+	echo "entered";
+    mysqli_close($con);
+?>
+				
+						
+<?php
+	$con =mysqli_connect("localhost","root","bvcecskrv");
+    mysqli_select_db($con,"info");
+    $result = mysqli_query($con,"SELECT * FROM forum");
+	echo "<table border=2>";
+    while($row = mysqli_fetch_array($result))
+    {
+		echo "<tr><td>".$row['feild1']."</td><td>".$row['name']."</td><td>".$row['time']."</td></tr>"; 
+    }
 
+	echo "</table>";
+	
+
+    mysqli_close($con);
+?>
+	<form action="forum-trial.php" method="POST">
+	<input type="text" name="feild1" required>
+	<input type="text" name="name" value="Annonymous">
+	<input type="submit" value="submit">
+	</form>
+					
+					</div>
+				</div>
+			</center>
+		</div>	
+	</body>
 </html>

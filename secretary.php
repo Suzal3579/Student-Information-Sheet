@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="animate.css">
+    <script type="text/javascript" src="date_time.js"></script>
+
 
 </head>
 
@@ -30,12 +32,15 @@
 </h1>
                 <h2>Bonam Venkata Chalamayya Engineering College,<br> Odalarevu</h2>
                 <h3>Affiliated To  JNTUK, Kakinada</h3> Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997<br><br>
-                <?php
-                echo "Today's Date : ".date("Y/m/d")." And Time ".date("h:i")."<br><br>";
-            ?>
+
             </div>
             <div class="imageRight">
                 <img src="group.png" />
+                <br><br><span id="date_time"></span>
+                <script type="text/javascript">
+                    window.onload = date_time('date_time');
+
+                </script>
             </div>
         </div>
         <div class="clear"></div>
@@ -54,7 +59,6 @@
                             <li><a href="secretary.php">Secretary</a></li>
                             <li><a href="chairman.php">Chairman</a></li>
                             <li><a href="vicechairman.php">Vice-Chairman</a></li>
-                            <li><a href="dean.php">Dean</a></li>
 
                         </ul>
                     </li>
@@ -71,11 +75,12 @@
                     <li><a href="index.php">Students</a></li>
                     <li><a href="#"> Departments</a>
                         <ul class="submenu1">
-                            <li><a href="Department.php">CSE</a></li>
-                            <li><a href="#">CE</a></li>
-                            <li><a href="#">ME</a></li>
-                            <li><a href="#">EEE</a></li>
-                            <li><a href="#">ECE</a></li>
+                             <li><a href="Department.php">CSE</a></li>
+              
+                            <li><a href="civil.php">CE</a></li>
+                            <li><a href="mech.php">ME</a></li>
+                            <li><a href="eee.php">EEE</a></li>
+                            <li><a href="ece.php">ECE</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Accredition</a>
@@ -94,7 +99,7 @@
                             <form class="navBar">
                                 <nav id="navigationBar">
                                     <ul class="sideBar" style="margin-left:-25%;">
-                                        <li><a href="#">Academics</a></li>
+                                        <li><a href="acadamic.php">Academics</a></li>
                                         <li><a href="#">Administration</a></li>
                                         <li><a href="#">BVC News</a></li>
                                         <li><a href="#">Forthcoming Event</a></li>
@@ -108,7 +113,7 @@
                                         <li><a href="#">Games And Sports</a></li>
                                         <li><a href="#">Placement</a></li>
                                         <li><a href="#">Feedback to College</a></li>
-                                        <li><a href="#">Alumini</a></li>
+                                        <li><a href="alumini.php">Alumini</a></li>
                                         <li><a href="#">Notices &amp; Circulars</a></li>
                                     </ul>
                                 </nav>
@@ -126,9 +131,9 @@
             </center>
         </div>
         <footer id="footer">
-        <h4 id="left">Copyright &copy; - <?php echo "20".date('y');?></h4>
-        <h4 id="right">BVCEC</h4>
-    </footer>
+            <h4 id="left">Copyright &copy; - <?php echo "20".date('y');?></h4>
+            <h4 id="right">BVCEC</h4>
+        </footer>
     </body>
 
 </html>

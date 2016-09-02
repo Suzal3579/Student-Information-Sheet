@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.css">
     <script type="text/javascript" src="date_time.js"></script>
+
 </head>
 
 <body>
@@ -31,7 +32,7 @@
         <li><a href="contact.php">Contact</a></li>
         <li><a href="About.php">About Us</a></li>
         <li><a href="vision.php">Vision &amp; Mission</a></li>
-        <li><a href="#">Management</a>
+        <li><a href="asd.php">Management</a>
 
             <ul class="submenu">
                 <li><a href="founderchairman.php">Founder-Chairman</a></li>
@@ -54,7 +55,7 @@
         <li><a href="index.php">Students</a></li>
         <li><a href="#"> Departments</a>
             <ul class="submenu1">
-                <li><a href="Department.php">CSE</a></li>
+                 <li><a href="Department.php">CSE</a></li>
               
                             <li><a href="civil.php">CE</a></li>
                             <li><a href="mech.php">ME</a></li>
@@ -100,37 +101,16 @@
             </aside>
         </div>
 
-
-
         <center>
             <div class="container">
-                <h1>Vision and Mission</h1>
-
-                <h1>Vision</h1>
-
-                <p>
-
-                    To become a leading technical institute of academic excellence by imparting high patterns of discipline through innovative programs of global standards making our students technologically superior and ethically strong to serve the Nation.</p>
-
-
-                <h1>Mission</h1>
-
-                <p> To create an environment that shall foster the growth of intellectually capable, innovative professionals who can contribute to the growth of Technology in partnership with industry and develop and harness it for the welfare of the Nation and mankind. </p>
-
-
-
-
-
-
-
-
+                <h2>Forthcoming Event</h2><br><br><br>
+                <ul>
+                    <li>Releasing Magazine SOCES 2k16 on Engineer's Day.</li>
+                    <li>Release of BVC news letter on 15-09-2016.</li>
+                    <li>Paper Presentation on the eve of Engineer's Day.</li>
+                </ul>
             </div>
         </center>
-        <br>
-        <br>
-        <br>
-
-
     </div>
     <footer id="footer">
         <h4 id="left">Copyright &copy; - <?php echo "20".date('y');?></h4>
