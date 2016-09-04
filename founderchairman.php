@@ -60,7 +60,6 @@
                             <li><a href="secretary.php">Secretary</a></li>
                             <li><a href="chairman.php">Chairman</a></li>
                             <li><a href="vicechairman.php">Vice-Chairman</a></li>
-                            <li><a href="dean.php">Dean</a></li>
 
                         </ul>
                     </li>
