@@ -55,11 +55,11 @@
         <li><a href="#"> Departments</a>
             <ul class="submenu1">
                 <li><a href="Department.php">CSE</a></li>
-              
-                            <li><a href="civil.php">CE</a></li>
-                            <li><a href="mech.php">ME</a></li>
-                            <li><a href="eee.php">EEE</a></li>
-                            <li><a href="ece.php">ECE</a></li>
+
+                <li><a href="civil.php">CE</a></li>
+                <li><a href="mech.php">ME</a></li>
+                <li><a href="eee.php">EEE</a></li>
+                <li><a href="ece.php">ECE</a></li>
             </ul>
         </li>
         <li><a href="#">Accredition</a>
@@ -82,7 +82,7 @@
                             <li><a href="#">Administration</a></li>
                             <li><a href="#">BVC News</a></li>
                             <li><a href="#">Forthcoming Event</a></li>
-                            <li><a href="#">E-mail to students</a></li>
+                            <li><a href="emailnew.php">E-mail to students</a></li>
                             <li><a href="#">SMS to Parents/Students</a></li>
                             <li><a href="#">Recruitment</a></li>
                             <li><a href="#">Professional Body</a></li>
