@@ -142,7 +142,7 @@
                                         <li><a href="#">Training</a></li>
                                         <li><a href="#">Games And Sports</a></li>
                                         <li><a href="#">Placement</a></li>
-                                        <li><a href="#">Feedback to College</a></li>
+                                <li><a href="feedback.php">Feedback to College</a></li>
                                         <li><a href="alumini.php">Alumini</a></li>
                                         <li><a href="#">Notices &amp; Circulars</a></li>
                                     </ul>
