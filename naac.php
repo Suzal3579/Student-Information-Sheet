@@ -16,7 +16,7 @@
         <div id="asideCont">
             <h2>BVC Engineering College, Odalarevu</h2>
             <h3>Affiliated To  JNTUK, Kakinada</h3> Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997<br><br>
-           
+
         </div>
         <div class="imageRight">
             <span id="date_time"></span>
@@ -57,11 +57,11 @@
         <li><a href="#"> Departments</a>
             <ul class="submenu1">
                 <li><a href="Department.php">CSE</a></li>
-              
-                            <li><a href="civil.php">CE</a></li>
-                            <li><a href="mech.php">ME</a></li>
-                            <li><a href="eee.php">EEE</a></li>
-                            <li><a href="ece.php">ECE</a></li>
+
+                <li><a href="civil.php">CE</a></li>
+                <li><a href="mech.php">ME</a></li>
+                <li><a href="eee.php">EEE</a></li>
+                <li><a href="ece.php">ECE</a></li>
             </ul>
         </li>
         <li><a href="#">Accredition</a>
@@ -80,11 +80,11 @@
                 <form class="navBar">
                     <nav id="navigationBar">
                         <ul class="sideBar">
-                             <li><a href="acadamic.php">Academics</a></li>
+                            <li><a href="acadamic.php">Academics</a></li>
                             <li><a href="#">Administration</a></li>
                             <li><a href="#">BVC News</a></li>
                             <li><a href="#">Forthcoming Event</a></li>
-                                <li><a href="emailnew.php">E-mail to students</a></li>
+                            <li><a href="emailnew.php">E-mail to students</a></li>
                             <li><a href="#">SMS to Parents/Students</a></li>
                             <li><a href="#">Recruitment</a></li>
                             <li><a href="#">Professional Body</a></li>
@@ -114,7 +114,7 @@
 
 
 
-
+                <img src="picsPage/naac.png" style="width:100% ;height:70%;" />
 
 
 

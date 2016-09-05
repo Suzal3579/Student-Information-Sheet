@@ -16,7 +16,7 @@
         <div id="asideCont">
             <h2>BVC Engineering College, Odalarevu</h2>
             <h3>Affiliated To  JNTUK, Kakinada</h3> Accredited By NBA New Delhi and NAAC With 'A' Grade<br> Approved By AICTE, New Delhi<br> Established in 1997<br><br>
-           
+
         </div>
         <div class="imageRight">
             <span id="date_time"></span>
@@ -57,11 +57,11 @@
         <li><a href="#"> Departments</a>
             <ul class="submenu1">
                 <li><a href="Department.php">CSE</a></li>
-              
-                            <li><a href="civil.php">CE</a></li>
-                            <li><a href="mech.php">ME</a></li>
-                            <li><a href="eee.php">EEE</a></li>
-                            <li><a href="ece.php">ECE</a></li>
+
+                <li><a href="civil.php">CE</a></li>
+                <li><a href="mech.php">ME</a></li>
+                <li><a href="eee.php">EEE</a></li>
+                <li><a href="ece.php">ECE</a></li>
             </ul>
         </li>
         <li><a href="#">Accredition</a>
@@ -80,11 +80,11 @@
                 <form class="navBar">
                     <nav id="navigationBar">
                         <ul class="sideBar">
-                             <li><a href="acadamic.php">Academics</a></li>
+                            <li><a href="acadamic.php">Academics</a></li>
                             <li><a href="#">Administration</a></li>
                             <li><a href="#">BVC News</a></li>
                             <li><a href="#">Forthcoming Event</a></li>
-                                <li><a href="emailnew.php">E-mail to students</a></li>
+                            <li><a href="emailnew.php">E-mail to students</a></li>
                             <li><a href="#">SMS to Parents/Students</a></li>
                             <li><a href="#">Recruitment</a></li>
                             <li><a href="#">Professional Body</a></li>
@@ -107,6 +107,8 @@
                 <p>
 
                     The National Board of Accreditation (NBA), India was established by AICTE (All India Council of Technical Education) as an autonomous body under section 10(u) of AICTE act, 1994 for periodic evaluations of technical institutions &amp; programmes basis according to specified norms and standards as recommended by AICTE council. It has the full authority to recognise or derecognise institutions and programmes under them. It is the only authorized body in India entrusted with the task of undertaking accreditation of technical education programmes.s</p>
+                <br><br>
+                <img src="picsPage/nba.jpg" style="width:50%; height:50%;" />
             </div>
         </center>
         <br>
