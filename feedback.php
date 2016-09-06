@@ -119,7 +119,7 @@
                 <div class="container">
                     <form action="feedback.php" method="post" class="formFeed">
                         <h3>Subject of Your Feedback</h3><br>
-                        <input type="text" name="subject" value="" style="width:90%;border:1px solid black;" required><br><br><br>
+                        <textarea name="subject" value="" style="width:90%;border:1px solid black;" required></textarea><br><br><br>
                         <h3>Message</h3><br>
                         <textarea name="message" cols="100" rows="10"></textarea><br><br><br>
                         <input type="submit" name="submit" value="Send" id="submitButton" required/>
