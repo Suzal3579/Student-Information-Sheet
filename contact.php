@@ -77,7 +77,7 @@
             <aside id="buttonsAside">
                 <nav id="navigationBar">
                     <ul class="sideBar">
-                        <li><a href="acadamic.php">Academics</a></li>
+                         <li><a href="acadamic.php">Academics</a></li>
                         <li><a href="#">Administration</a></li>
                         <li><a href="#">BVC News</a></li>
                         <li><a href="#">Forthcoming Event</a></li>
@@ -113,7 +113,7 @@
             </article>
             <aside class="map" style="float:right; margin-left:10%;">
                 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-                <div style='overflow:hidden;height:600px;width:662px;margin-left:36%;'>
+                  <div style='overflow:hidden;height:600px;width:662px;margin-left:36%;'>
                     <div id='gmap_canvas' style='height:600px;width:462px;border:2px solid gray;margin-top:-25%;position:absolute;'></div>
 
                     <style>

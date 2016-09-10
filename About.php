@@ -55,7 +55,7 @@
         <li><a href="#"> Departments</a>
             <ul class="submenu1">
                 <li><a href="Department.php">CSE</a></li>
-              
+
                             <li><a href="civil.php">CE</a></li>
                             <li><a href="mech.php">ME</a></li>
                             <li><a href="eee.php">EEE</a></li>
